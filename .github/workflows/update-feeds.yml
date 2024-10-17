@@ -9,15 +9,37 @@ on:
  
       # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "cron"
-  cron:
-    # The type of runner that the job will run on
+  build:
     runs-on: ubuntu-latest
- 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Runs a single command using the runners shell
-      - name: Install dependencies
-        run: yarn install
-      - name: Run a one-line script
-        run: yarn build
+      - name: Checkout your repository using git
+        uses: actions/checkout@v4
+      - name: Install, build, and upload your site
+        uses: withastro/action@v3
+        # with:
+          # path: . # The root location of your Astro project inside the repository. (optional)
+          # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
+          # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+  # # This workflow contains a single job called "cron"
+  # cron:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+ 
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Runs a single command using the runners shell
+  #     - name: Install dependencies
+  #       run: yarn install
+  #     - name: Run a one-line script
+  #       run: yarn build

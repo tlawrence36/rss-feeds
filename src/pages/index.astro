@@ -70,14 +70,11 @@ await Promise.allSettled(
   })
 );
 
-// function removeDuplicates(arr:[], prop:string) {
-//   return arr.filter((obj, pos, arr) => {
-//     return arr.map(mapObj => mapObj[prop]).indexOf(obj[prop]) === pos;
-//   });
-// }
-// const uniqueItems = removeDuplicates(feedItems, 'title');
+const uniqueItems = feedItems.filter((item, index, array) => {
+	return array.findIndex(p => p.title === item.title) === index;
+});
 
-const sortedFeedItems = feedItems.sort((a, b) => (b.date ?? new Date()).getTime() - (a.date ?? new Date()).getTime())
+const sortedFeedItems = uniqueItems.sort((a, b) => (b.date ?? new Date()).getTime() - (a.date ?? new Date()).getTime())
 
 
 ---

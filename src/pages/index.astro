@@ -7,19 +7,44 @@ const sevenDaysAgo = new Date();
 sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
 
 const feedSources = [
-  'https://www.smashingmagazine.com/feed/',
-  'https://developer.mozilla.org/en-US/blog/rss.xml',
-  'https://moxie.foxnews.com/google-publisher/tech.xml',
+//   'https://www.smashingmagazine.com/feed/',
+//   'https://developer.mozilla.org/en-US/blog/rss.xml',
+//   'https://moxie.foxnews.com/google-publisher/tech.xml',
+//   'https://news.ycombinator.com/rss',
+//   'https://feeds.npr.org/1001/rss.xml', // NPR News
+  'https://feeds.npr.org/1003/rss.xml', // NPR National
+  'https://feeds.npr.org/1004/rss.xml', // NPR World
+  'https://feeds.npr.org/1006/rss.xml', // NPR Business
+  'https://feeds.npr.org/1007/rss.xml', // NPR Science
+  'https://feeds.npr.org/1014/rss.xml', // NPR Politics
+  'https://feeds.npr.org/1019/rss.xml', // NPR Tech
+  'https://feeds.npr.org/1025/rss.xml', // NPR Environment
+  'https://feeds.npr.org/1026/rss.xml', // NPR Space
+  'https://feeds.npr.org/1032/rss.xml', // NPR Books
+  'https://feeds.npr.org/1054/rss.xml', // NPR Gardening
+  'https://feeds.npr.org/1053/rss.xml', // NPR Food
+  'https://feeds.npr.org/1124/rss.xml', // NPR Europe
+  'https://feeds.npr.org/1125/rss.xml', // NPR Asia
+  'https://feeds.npr.org/1126/rss.xml', // NPR Africa
+  'https://feeds.npr.org/1127/rss.xml', // NPR Latin America
 ]
+
+// interface Feeds {
+// 	feedName: string;
+// 	feedItems: FeedItem[];
+// }
 
 interface FeedItem {
   feed?: string;
   title?: string;
+  description?: string;
   link?: string;
-  date?: Date;
+  date: Date;
+  formattedDate?: string;
 }
 
 const feedItems: FeedItem[] = [];
+// const feeds: Feeds[] = [];
 
 await Promise.allSettled(
   feedSources.map(async (source) => {
@@ -28,11 +53,14 @@ await Promise.allSettled(
       feed.items.forEach((item) => {
         const date = item.pubDate ? new Date(item.pubDate) : undefined;
         if (date && date >= sevenDaysAgo) {
+		  const fDate = date.toLocaleDateString('en-US');
           feedItems.push({
             feed: feed.title,
             title: item.title,
+			description: item.description,
             link: item.link,
-            date,
+			date,
+            formattedDate: fDate
           });
         }
       });
@@ -42,20 +70,49 @@ await Promise.allSettled(
   })
 );
 
-const sortedFeedItems = feedItems.sort((a, b) => (b.date ?? new Date()).getTime() - (a.date ?? new Date()).getTime());
+// function removeDuplicates(arr:[], prop:string) {
+//   return arr.filter((obj, pos, arr) => {
+//     return arr.map(mapObj => mapObj[prop]).indexOf(obj[prop]) === pos;
+//   });
+// }
+// const uniqueItems = removeDuplicates(feedItems, 'title');
+
+const sortedFeedItems = feedItems.sort((a, b) => (b.date ?? new Date()).getTime() - (a.date ?? new Date()).getTime())
+
 
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-	<ul>
+	<table>
 		{sortedFeedItems.map(item => (
-		<li>
-			<a href={item.link}>{item.title}</a>
-			<p>{item.feed}</p>
-			<p>{item.date}</p>
-		</li>
-		))
-	</ul>}
+			<tr>
+				<td class="date">{item.formattedDate}</td>
+				<td class="topic">{item?.feed?.substring(12)}</td>
+				<td class="link"><a href={item.link} target="_blank">{item.title}</a></td>
+			</tr>
+		))}
+	</table>
   </main>
 </Layout>
+
+<style>
+	table {
+		display: flex;
+		justify-content: center;
+		margin: 25px 0;
+	}
+	td {
+		padding: 5px 0;
+	}
+	.date {
+		width: 100px;
+	}
+	.topic {
+		width: 110px;
+		text-align: right;
+	}
+	.link {
+		padding-left: 25px;
+	}
+</style>

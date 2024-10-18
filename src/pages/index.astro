@@ -1,17 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Parser from 'rss-parser';
+
 const parser = new Parser();
 
 const sevenDaysAgo = new Date();
 sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
 
 const feedSources = [
-//   'https://www.smashingmagazine.com/feed/',
-//   'https://developer.mozilla.org/en-US/blog/rss.xml',
-//   'https://moxie.foxnews.com/google-publisher/tech.xml',
-//   'https://news.ycombinator.com/rss',
-//   'https://feeds.npr.org/1001/rss.xml', // NPR News
   'https://feeds.npr.org/1003/rss.xml', // NPR National
   'https://feeds.npr.org/1004/rss.xml', // NPR World
   'https://feeds.npr.org/1006/rss.xml', // NPR Business
@@ -29,11 +25,6 @@ const feedSources = [
   'https://feeds.npr.org/1127/rss.xml', // NPR Latin America
 ]
 
-// interface Feeds {
-// 	feedName: string;
-// 	feedItems: FeedItem[];
-// }
-
 interface FeedItem {
   feed?: string;
   title?: string;
@@ -44,7 +35,6 @@ interface FeedItem {
 }
 
 const feedItems: FeedItem[] = [];
-// const feeds: Feeds[] = [];
 
 await Promise.allSettled(
   feedSources.map(async (source) => {
@@ -76,16 +66,19 @@ const uniqueItems = feedItems.filter((item, index, array) => {
 
 const sortedFeedItems = uniqueItems.sort((a, b) => (b.date ?? new Date()).getTime() - (a.date ?? new Date()).getTime())
 
+// TODO:
+// * open item in a modal on same page so I don't have to click between tabs
+// * make page look better...bg image? color? mono font, ...?
 
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="NPR Feeds">
   <main>
 	<table>
 		{sortedFeedItems.map(item => (
 			<tr>
 				<td class="date">{item.formattedDate}</td>
-				<td class="topic">{item?.feed?.substring(12)}</td>
+				<td class="topic">{item?.feed?.substring(12)}</td> {/* handling NPR-specific feed names */}
 				<td class="link"><a href={item.link} target="_blank">{item.title}</a></td>
 			</tr>
 		))}
@@ -94,20 +87,31 @@ const sortedFeedItems = uniqueItems.sort((a, b) => (b.date ?? new Date()).getTim
 </Layout>
 
 <style>
+	body {
+  		font-family: 'JetBrains Mono Variable', monospace;
+  		background-image: url('../assets/icon-bg.jpg');
+	}
+	main {
+		display: flex;
+		justify-content: center;
+	}
 	table {
 		display: flex;
 		justify-content: center;
 		margin: 25px 0;
+		background: beige;
+		padding: 25px;
+		opacity: .80;
+		border: 3px solid rgb(199, 199, 179);
 	}
-	td {
-		padding: 5px 0;
-	}
+
 	.date {
 		width: 100px;
 	}
 	.topic {
 		width: 110px;
 		text-align: right;
+		font-weight: 800;
 	}
 	.link {
 		padding-left: 25px;

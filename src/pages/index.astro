@@ -32,6 +32,7 @@ interface FeedItem {
   link?: string;
   date: Date;
   formattedDate?: string;
+  formattedTime?: string;
 }
 
 const feedItems: FeedItem[] = [];
@@ -44,13 +45,15 @@ await Promise.allSettled(
         const date = item.pubDate ? new Date(item.pubDate) : undefined;
         if (date && date >= sevenDaysAgo) {
 		  const fDate = date.toLocaleDateString('en-US');
+		  const fTime = date.toLocaleTimeString('en-US');
           feedItems.push({
             feed: feed.title,
             title: item.title,
 			description: item.description,
             link: item.link,
 			date,
-            formattedDate: fDate
+            formattedDate: fDate,
+			formattedTime: fTime,
           });
         }
       });
@@ -77,7 +80,7 @@ const sortedFeedItems = uniqueItems.sort((a, b) => (b.date ?? new Date()).getTim
 	<table>
 		{sortedFeedItems.map(item => (
 			<tr>
-				<td class="date">{item.formattedDate}</td>
+				<td class="date">{item.formattedDate}<span>({item.formattedTime})</span></td>
 				<td class="topic">{item?.feed?.substring(12)}</td> {/* handling NPR-specific feed names */}
 				<td class="link"><a href={item.link} target="_blank">{item.title}</a></td>
 			</tr>
@@ -103,13 +106,20 @@ const sortedFeedItems = uniqueItems.sort((a, b) => (b.date ?? new Date()).getTim
 		padding: 25px;
 		opacity: .80;
 		border: 3px solid rgb(199, 199, 179);
+		border-radius: 50px;
 	}
 
 	.date {
-		width: 100px;
+		width: 200px;
+		display: flex;
+		align-items: center;
+	}
+	.date span {
+		font-size: 12px;
+		padding-left: 5px;
 	}
 	.topic {
-		width: 150px;
+		width: 125px;
 		text-align: right;
 		font-weight: 800;
 	}

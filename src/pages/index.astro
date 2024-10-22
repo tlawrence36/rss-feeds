@@ -116,7 +116,8 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 		allRows.forEach((el) => el.classList.remove('show'));
 		const rows = document.querySelectorAll(`tr[data-id=${feed}]`);
 		rows.forEach((el) => el.classList.add('show'));
-		document.getElementById("current").innerHTML = feed;
+		const el = document.getElementById("current")!;
+		el.innerHTML = feed;
 	});
 </script>
 

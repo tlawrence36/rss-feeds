@@ -1,32 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Parser from 'rss-parser';
+import { Image } from 'astro:assets';
+import rssIcon from '../assets/rss-icon.svg';
+import { feedSources } from '../store.js';
 
 const parser = new Parser();
 
 const sevenDaysAgo = new Date();
 sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
 
-const feedSources = [
-  'https://feeds.npr.org/1003/rss.xml', // NPR National
-  'https://feeds.npr.org/1004/rss.xml', // NPR World
-  'https://feeds.npr.org/1006/rss.xml', // NPR Business
-  'https://feeds.npr.org/1007/rss.xml', // NPR Science
-  'https://feeds.npr.org/1014/rss.xml', // NPR Politics
-  'https://feeds.npr.org/1019/rss.xml', // NPR Tech
-  'https://feeds.npr.org/1025/rss.xml', // NPR Environment
-  'https://feeds.npr.org/1026/rss.xml', // NPR Space
-  'https://feeds.npr.org/1032/rss.xml', // NPR Books
-  'https://feeds.npr.org/1054/rss.xml', // NPR Gardening
-  'https://feeds.npr.org/1053/rss.xml', // NPR Food
-  'https://feeds.npr.org/1124/rss.xml', // NPR Europe
-  'https://feeds.npr.org/1125/rss.xml', // NPR Asia
-  'https://feeds.npr.org/1126/rss.xml', // NPR Africa
-  'https://feeds.npr.org/1127/rss.xml', // NPR Latin America
-]
-
 interface FeedItem {
   feed?: string;
+  category?: string;
   title?: string;
   description?: string;
   link?: string;
@@ -36,18 +22,21 @@ interface FeedItem {
 }
 
 const feedItems: FeedItem[] = [];
+const feedNames: string[] = [];
 
 await Promise.allSettled(
   feedSources.map(async (source) => {
     try {
-      const feed = await parser.parseURL(source);
+      const feed = await parser.parseURL(source[2]);
+	  feedNames.push(source[0]);
       feed.items.forEach((item) => {
         const date = item.pubDate ? new Date(item.pubDate) : undefined;
         if (date && date >= sevenDaysAgo) {
 		  const fDate = date.toLocaleDateString('en-US');
 		  const fTime = date.toLocaleTimeString('en-US');
           feedItems.push({
-            feed: feed.title,
+			feed: source[0],
+            category: source[1],
             title: item.title,
 			description: item.description,
             link: item.link,
@@ -69,30 +58,84 @@ const uniqueItems = feedItems.filter((item, index, array) => {
 
 const sortedFeedItems = uniqueItems.sort((a, b) => (b.date ?? new Date()).getTime() - (a.date ?? new Date()).getTime())
 
+const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item) === index).sort();
+
 // TODO:
 // * open item in a modal on same page so I don't have to click between tabs
 // * make page look better...bg image? color? mono font, ...?
 
 ---
 
-<Layout title="NPR Feeds">
-  <main>
-	<table>
-		{sortedFeedItems.map(item => (
-			<tr>
-				<td class="date">{item.formattedDate}<span>({item.formattedTime})</span></td>
-				<td class="topic">{item?.feed?.substring(12)}</td> {/* handling NPR-specific feed names */}
-				<td class="link"><a href={item.link} target="_blank">{item.title}</a></td>
-			</tr>
-		))}
-	</table>
-  </main>
+<Layout title="RSS">
+
+	<div id="slideout">
+		<Image src={rssIcon} alt="RSS icon" class="icon"/>
+		<div id='current'></div>
+		<div id="slideout_inner">
+			<ul>
+				{uniqueFeedNames.map(item => (
+					<li>{item}</li>
+				))}
+			</ul>
+		</div>
+	</div>
+
+	<main>
+		<!-- <div id='current'></div> -->
+		<table>
+			{sortedFeedItems
+			// .filter(item => item.feed === currFeed)
+			.map(item => (
+				<tr data-id={item.feed}>
+					<td class="date">{item.formattedDate}<span>({item.formattedTime})</span></td>
+					{/* <td class="topic">{item?.feed?.substring(12)}</td> {/* handling NPR-specific feed names */}
+					<td class="topic">{item.category || ''}</td>
+					<td class="link"><a href={item.link} target="_blank">{item.title}</a></td>
+				</tr>
+			))}
+		</table>
+	</main>
 </Layout>
 
+<script>
+	import { currentFeed } from '../store.js';
+
+	function setCurrentFeed(feed:string): void {
+		window.scrollTo({top: 0, behavior: 'smooth'});
+		currentFeed.set(feed);
+	}
+
+	const elArray = document.querySelectorAll('li');
+	elArray.forEach((e) => {
+		const feedName = e.innerHTML;
+		e.addEventListener('click', () => setCurrentFeed(feedName))
+	});
+
+	currentFeed.subscribe((feed: string) => {
+		const allRows = document.querySelectorAll('tr');
+		allRows.forEach((el) => el.classList.remove('show'));
+		const rows = document.querySelectorAll(`tr[data-id=${feed}]`);
+		rows.forEach((el) => el.classList.add('show'));
+		document.getElementById("current").innerHTML = feed;
+	});
+</script>
+
 <style>
+	html::-webkit-scrollbar { display: none; }
 	body {
   		font-family: 'JetBrains Mono Variable', monospace;
   		background-image: url('../assets/icon-bg.jpg');
+		-ms-overflow-style: none;  /* IE and Edge */
+  		scrollbar-width: none;  /* Firefox */
+	}
+	body::-webkit-scrollbar {
+  		display: none;
+	}
+
+	.icon {
+		width: 32px;
+		height: 32px;
+		padding: 5px;
 	}
 	main {
 		display: flex;
@@ -102,11 +145,25 @@ const sortedFeedItems = uniqueItems.sort((a, b) => (b.date ?? new Date()).getTim
 		display: flex;
 		justify-content: center;
 		margin: 25px 0;
-		background: beige;
+		background: #cdeaf8;
 		padding: 25px;
-		opacity: .80;
-		border: 3px solid rgb(241 141 29);
-		border-radius: 50px;
+		opacity: .90;
+		border-radius: 25px;
+	}
+
+	tr {
+		display: none;
+	}
+
+	#current {
+		transform: rotate(-90deg);
+    	top: 44px;
+    	position: relative;
+		color: #fff;
+	}
+
+	.show {
+		display: table;
 	}
 
 	.date {
@@ -119,11 +176,56 @@ const sortedFeedItems = uniqueItems.sort((a, b) => (b.date ?? new Date()).getTim
 		padding-left: 5px;
 	}
 	.topic {
-		width: 125px;
+		width: 150px;
 		text-align: right;
 		font-weight: 800;
 	}
 	.link {
 		padding-left: 25px;
+		width: 1200px;
+	}
+	#slideout {
+		z-index: 1;
+		position: fixed;
+		top: 33px;
+		left: 0;
+		width: 45px;
+		height: 139px;
+		background: rgb(255 165 0);
+		-webkit-transition-duration: 0.3s;
+		-moz-transition-duration: 0.3s;
+		-o-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	#slideout_inner {
+		background: rgb(273 153 0);
+		position: fixed;
+		top: 33px;
+		left: -160px;
+		width: 160px;
+		/* padding: 25px; */
+		height: auto;
+		-webkit-transition-duration: 0.3s;
+		-moz-transition-duration: 0.3s;
+		-o-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		cursor: pointer;
+		border-bottom-right-radius: 5px;
+	}
+	#slideout:hover {
+		left: 157px;
+	}
+	#slideout:hover #slideout_inner {
+		left: 0;
+	}
+
+	ul {
+		list-style: none;
+		color: #fff;
+	}
+	li:hover {
+		color: #ddd;
 	}
 </style>

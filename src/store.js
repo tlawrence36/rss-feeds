@@ -53,7 +53,7 @@ export const feedSources = [
     ['NPR', 'Africa', 'https://feeds.npr.org/1126/rss.xml'], // NPR Africa
     ['NPR', 'Americas', 'https://feeds.npr.org/1127/rss.xml'], // NPR Latin America
 
-    ['Vox', '', 'https://www.vox.com/rss/index.xml'],
+    // ['Vox', '', 'https://www.vox.com/rss/index.xml'],
 
     ['Yahoo', '', 'https://www.yahoo.com/news/rss'],
   ]

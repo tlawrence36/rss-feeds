@@ -62,7 +62,6 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 
 // TODO:
 // * open item in a modal on same page so I don't have to click between tabs
-// * make page look better...bg image? color? mono font, ...?
 
 ---
 
@@ -81,19 +80,16 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 	</div>
 
 	<main>
-		<!-- <div id='current'></div> -->
-		<table>
-			{sortedFeedItems
-			// .filter(item => item.feed === currFeed)
+		<div class="wrapper">
+		{sortedFeedItems
 			.map(item => (
-				<tr data-id={item.feed}>
-					<td class="date">{item.formattedDate}<span>({item.formattedTime})</span></td>
-					{/* <td class="topic">{item?.feed?.substring(12)}</td> {/* handling NPR-specific feed names */}
-					<td class="topic">{item.category || ''}</td>
-					<td class="link"><a href={item.link} target="_blank">{item.title}</a></td>
-				</tr>
+				<div class="item" data-feed={item.feed}>
+					<div class="date">{item.formattedDate}<span class="time">({item.formattedTime})</span></div>
+					<div class="topic">{item.category || ''}</div>
+					<div class="link"><a href={item.link} target="_blank">{item.title}</a></div>
+				</div>
 			))}
-		</table>
+		</div>
 	</main>
 </Layout>
 
@@ -112,9 +108,9 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 	});
 
 	currentFeed.subscribe((feed: string) => {
-		const allRows = document.querySelectorAll('tr');
+		const allRows = document.querySelectorAll('div.item');
 		allRows.forEach((el) => el.classList.remove('show'));
-		const rows = document.querySelectorAll(`tr[data-id=${feed}]`);
+		const rows = document.querySelectorAll(`div[data-feed=${feed}]`);
 		rows.forEach((el) => el.classList.add('show'));
 		const el = document.getElementById("current")!;
 		el.innerHTML = feed;
@@ -142,17 +138,8 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 		color: #000;
 	}
 	a:visited {
-		color: rgb(255 165 0);
+		color: #FFA500
 	}
-	/* a:visited:hover {
- 		text-decoration: none;
-	} */
-
-
-
-
-
-
 	.icon {
 		width: 32px;
 		height: 32px;
@@ -161,50 +148,62 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 	main {
 		display: flex;
 		justify-content: center;
-	}
-	table {
-		display: flex;
-		justify-content: center;
-		margin: 25px 0;
-		background: #cdeaf8;
-		padding: 25px;
-		opacity: .90;
+		margin: 0 50px 50px 50px;
+		background: lightblue;
 		border-radius: 25px;
+		border: 5px solid #fff;
+
+	}
+	.wrapper {
+		width: 100%;
+		padding: 25px;
 	}
 
-	tr {
+	.item {
+		width: inherit;
 		display: none;
 	}
-
-	#current {
-		transform: rotate(-90deg);
-    	top: 44px;
-    	position: relative;
-		color: #fff;
-	}
-
 	.show {
-		display: table;
+		display: grid;
+		grid-template-columns: 200px 150px 1fr;
 	}
-
 	.date {
-		width: 200px;
-		display: flex;
-		align-items: center;
+		width: inherit;
+		grid-column-start: 1;
+		font-size: 0.9rem;
 	}
-	.date span {
-		font-size: 12px;
-		padding-left: 5px;
+	.time {
+		width: inherit;
+		font-size: 0.7rem;
+		font-style: italic;
 	}
 	.topic {
-		width: 150px;
-		text-align: right;
-		font-weight: 800;
+		width: inherit;
+		grid-column-start: 2;
+		font-size: 0.9rem;
+		font-weight: 600;
 	}
 	.link {
-		padding-left: 25px;
-		width: 1200px;
+		width: inherit;
+		grid-column-start: 3;
 	}
+
+	/* "mobile second" for this site */
+	@media only screen and (max-width: 992px) {
+		.show {
+			grid-template-columns: 100px 1fr;
+		}
+		.link {
+			grid-column-start: 2;
+		}
+		.time,
+		.topic {
+			display: none;
+		}
+	}
+
+
+/* slide out styles */
 	#slideout {
 		z-index: 1;
 		position: fixed;
@@ -212,16 +211,16 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 		left: 0;
 		width: 45px;
 		height: 139px;
-		background: rgb(255 165 0);
+		background: #FFA500;
 		-webkit-transition-duration: 0.3s;
 		-moz-transition-duration: 0.3s;
 		-o-transition-duration: 0.3s;
 		transition-duration: 0.3s;
-		border-top-right-radius: 5px;
-		border-bottom-right-radius: 5px;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
 	}
 	#slideout_inner {
-		background: rgb(273 153 0);
+		background: #f90;
 		position: fixed;
 		top: 33px;
 		left: -160px;
@@ -233,7 +232,7 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 		-o-transition-duration: 0.3s;
 		transition-duration: 0.3s;
 		cursor: pointer;
-		border-bottom-right-radius: 5px;
+		border-bottom-right-radius: 20px;
 	}
 	#slideout:hover {
 		left: 157px;
@@ -241,7 +240,12 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 	#slideout:hover #slideout_inner {
 		left: 0;
 	}
-
+	#current {
+		transform: rotate(-90deg);
+    	top: 44px;
+    	position: relative;
+		color: #fff;
+	}
 	ul {
 		list-style: none;
 		color: #fff;

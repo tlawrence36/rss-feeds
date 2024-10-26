@@ -115,6 +115,10 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 		const el = document.getElementById("current")!;
 		el.innerHTML = feed;
 	});
+
+	window.onload = function () {
+		window.scrollTo({top: 0, behavior: 'smooth'});
+	}
 </script>
 
 <style>

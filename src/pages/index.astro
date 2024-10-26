@@ -33,7 +33,6 @@ await Promise.allSettled(
         const date = item.pubDate ? new Date(item.pubDate) : undefined;
         if (date && date >= sevenDaysAgo) {
 		  const fDate = date.toLocaleDateString('en-US');
-		  const fTime = date.toLocaleTimeString('en-US');
           feedItems.push({
 			feed: source[0],
             category: source[1],
@@ -42,7 +41,6 @@ await Promise.allSettled(
             link: item.link,
 			date,
             formattedDate: fDate,
-			formattedTime: fTime,
           });
         }
       });
@@ -84,7 +82,7 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 		{sortedFeedItems
 			.map(item => (
 				<div class="item" data-feed={item.feed}>
-					<div class="date">{item.formattedDate}<span class="time">({item.formattedTime})</span></div>
+					<div class="date">{item.formattedDate}</div>
 					<div class="topic">{item.category || ''}</div>
 					<div class="link"><a href={item.link} target="_blank">{item.title}</a></div>
 				</div>
@@ -172,23 +170,19 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 	}
 	.show {
 		display: grid;
-		grid-template-columns: 200px 150px 1fr;
+		grid-template-columns: 100px 150px 1fr;
 	}
 	.date {
 		width: inherit;
 		grid-column-start: 1;
 		font-size: 0.9rem;
 	}
-	.time {
-		width: inherit;
-		font-size: 0.7rem;
-		font-style: italic;
-	}
 	.topic {
 		width: inherit;
 		grid-column-start: 2;
 		font-size: 0.9rem;
 		font-weight: 600;
+		text-align: center;
 	}
 	.link {
 		width: inherit;
@@ -206,7 +200,6 @@ const uniqueFeedNames = feedNames.filter((item, index) => feedNames.indexOf(item
 		.link {
 			grid-column-start: 2;
 		}
-		.time,
 		.topic {
 			display: none;
 		}

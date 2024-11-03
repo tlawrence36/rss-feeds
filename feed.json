@@ -3,52 +3,6 @@
     "id": 1,
     "source": "ABC",
     "category": "US",
-    "title": "Top House Republicans seeking documents regarding Biden's 'garbage' comment",
-    "published": "Fri, 01 Nov 2024 21:42:26 -0400",
-    "summary": "Top House Republicans are seeking documents and internal communications regarding President Joe Biden&rsquo;s statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump",
-    "story": [
-      "Top House Republicans are seeking documents and internal communications regarding President Joe Biden\u2019s statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump",
-      "WASHINGTON -- Top House Republicans called on the White House to produce all documents and internal communications regarding President Joe Biden's statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump.",
-      "White House press officials altered the official transcript of Biden's statement, drawing objections from the federal workers who document such remarks for posterity, according to two U.S. government officials and an internal email obtained Thursday by The Associated Press.",
-      "The lawmakers said they question whether the decision to create \u201ca false transcript and manipulate or alter the accurate transcript\u201d produced for the National Archives and Records Administration was a violation of federal law.",
-      "Rep. James Comer, the Republican chair of the House Committee on Oversight and Accountability, and House Republican Conference Chairwoman Elise Stefanik demanded the White House produce the records. They're also calling for the White House to make available for a briefing the top supervisor of the White House Stenography's Office.",
-      "\u201cThe White House cannot simply rewrite President Biden\u2019s rhetoric,\u201d Comer and Stefanik wrote. \u201c...We are concerned with the latest reporting of the White House\u2019s apparent political decision to protect the Biden-Harris Administration, instead of following longstanding and proper protocols.\u201d",
-      "Biden created an uproar earlier this week with his remarks to Latino activists responding to racist comments at a Trump rally made by the comedian Tony Hinchcliffe, who referred to the U.S. island territory of Puerto Rico as a \u201cfloating island of garbage.\u201d",
-      "Biden, according to a transcript prepared by the official White House stenographers, told the Latino group on a Tuesday evening video call, \u201cThe only garbage I see floating out there is his supporters \u2014 his \u2014 his demonization of Latinos is unconscionable, and it\u2019s un-American.\u201d",
-      "The transcript released by the White House press office, however, rendered the quote with an apostrophe, reading \u201csupporter\u2019s\u201d rather than \u201csupporters,\u201d which aides said pointed to Biden criticizing Hinchcliffe, not the millions of Americans who are supporting Trump for president."
-    ]
-  },
-  {
-    "id": 2,
-    "source": "ABC",
-    "category": "US",
-    "title": "Small town police chief, entire police department resign with little explanation",
-    "published": "Sat, 02 Nov 2024 15:38:29 -0400",
-    "summary": "Two of the town's city council members also resigned with little explanation.",
-    "story": [
-      "Two of the town's city council members also resigned with little explanation.",
-      "The police chief and three officers that make up the entire four-person police department of the town of Geary, Oklahoma, and two of the town\u2019s city council members have resigned with little explanation.",
-      "Former Police Chief Alicia Ford did not address the specific reasons for the Thursday resignations, but wrote in a social media post that the decision was difficult.",
-      "\u201cIt is with great sadness that I and the rest of the Geary police officers will no longer be serving this community,\u201d Ford wrote, \u201cbut it was the right decision for me and the other officers.\u201d",
-      "Ford, without elaboration, encouraged residents of the town of nearly 1,000 about 50 miles (80 kilometers) northwest of Oklahoma City to become acquainted with the city council \u201cand to be as involved as possible in the city, especially attending the city council meetings.\u201d",
-      "Ford did not immediately return a phone message for comment on Saturday.",
-      "A woman who answered a phone call to a number listed for Mayor Waylan Upchego on Saturday said \u201cnot at this time\u201d when a reporter asked to speak with Upchego about the resignations.",
-      "The city, in a statement, thanked the former chief and officers while wishing them well and said an interim police chief has been chosen and that the Blaine County and Canadian County sheriffs' offices will assist in patrolling the town.",
-      "\u201cWe would like to let our citizens know we are conducting business as usual,\u201d according to the statement. \u201cIf you have an emergency, please contact 911 like you normally would and an officer will be dispatched to assist you.\u201d",
-      "City Council members Glen \u201cRocky\u201d Coleman Jr. and Kristy Miller also announced their resignations, leaving the four-person council with just one member due to a previous vacancy.",
-      "Coleman wrote on social media that his values do not match the city\u2019s direction and said communication between the administration and council \u201chas been significantly lacking,\u201d but offered no further explanation.",
-      "\u201cCouncil members are just about the last to know something,\u201d Coleman wrote. \u201cThere are often times that I would not know something (is planned) until the meeting started.\u201d",
-      "Miller did not immediately return a phone call to a number listed for her.",
-      "The city did not identify the interim chief, but JJ Stitt \u2014 who described himself as a 27-year law enforcement veteran, as a county deputy, a member of a task force investigating internet crimes against children and a distant cousin of Gov. Kevin Stitt \u2014 told The Oklahoman that he is the interim chief.",
-      "Stitt did not return a phone call to a number listed for him, but told the newspaper that he hopes to add officers in the coming days. He said he has \u201cthe ability\u201d to pick up the phone and get experienced officers over to the town to help out.",
-      "\u201cI've been in the game a long time,\u201d Stitt said.",
-      "The resignations come more than a year after the entire police department of the small town of Goodhue, Minnesota, resigned over low pay."
-    ]
-  },
-  {
-    "id": 3,
-    "source": "ABC",
-    "category": "US",
     "title": "Debate over abortion rights leads to expensive campaigns for high-stakes state Supreme Court seats",
     "published": "Sat, 02 Nov 2024 11:58:27 -0400",
     "summary": "The debate over abortion rights is leading to expensive campaigns for state Supreme Courts in several states this year",
@@ -88,7 +42,34 @@
     ]
   },
   {
-    "id": 4,
+    "id": 2,
+    "source": "ABC",
+    "category": "US",
+    "title": "Small town police chief, entire police department resign with little explanation",
+    "published": "Sat, 02 Nov 2024 15:38:29 -0400",
+    "summary": "Two of the town's city council members also resigned with little explanation.",
+    "story": [
+      "Two of the town's city council members also resigned with little explanation.",
+      "The police chief and three officers that make up the entire four-person police department of the town of Geary, Oklahoma, and two of the town\u2019s city council members have resigned with little explanation.",
+      "Former Police Chief Alicia Ford did not address the specific reasons for the Thursday resignations, but wrote in a social media post that the decision was difficult.",
+      "\u201cIt is with great sadness that I and the rest of the Geary police officers will no longer be serving this community,\u201d Ford wrote, \u201cbut it was the right decision for me and the other officers.\u201d",
+      "Ford, without elaboration, encouraged residents of the town of nearly 1,000 about 50 miles (80 kilometers) northwest of Oklahoma City to become acquainted with the city council \u201cand to be as involved as possible in the city, especially attending the city council meetings.\u201d",
+      "Ford did not immediately return a phone message for comment on Saturday.",
+      "A woman who answered a phone call to a number listed for Mayor Waylan Upchego on Saturday said \u201cnot at this time\u201d when a reporter asked to speak with Upchego about the resignations.",
+      "The city, in a statement, thanked the former chief and officers while wishing them well and said an interim police chief has been chosen and that the Blaine County and Canadian County sheriffs' offices will assist in patrolling the town.",
+      "\u201cWe would like to let our citizens know we are conducting business as usual,\u201d according to the statement. \u201cIf you have an emergency, please contact 911 like you normally would and an officer will be dispatched to assist you.\u201d",
+      "City Council members Glen \u201cRocky\u201d Coleman Jr. and Kristy Miller also announced their resignations, leaving the four-person council with just one member due to a previous vacancy.",
+      "Coleman wrote on social media that his values do not match the city\u2019s direction and said communication between the administration and council \u201chas been significantly lacking,\u201d but offered no further explanation.",
+      "\u201cCouncil members are just about the last to know something,\u201d Coleman wrote. \u201cThere are often times that I would not know something (is planned) until the meeting started.\u201d",
+      "Miller did not immediately return a phone call to a number listed for her.",
+      "The city did not identify the interim chief, but JJ Stitt \u2014 who described himself as a 27-year law enforcement veteran, as a county deputy, a member of a task force investigating internet crimes against children and a distant cousin of Gov. Kevin Stitt \u2014 told The Oklahoman that he is the interim chief.",
+      "Stitt did not return a phone call to a number listed for him, but told the newspaper that he hopes to add officers in the coming days. He said he has \u201cthe ability\u201d to pick up the phone and get experienced officers over to the town to help out.",
+      "\u201cI've been in the game a long time,\u201d Stitt said.",
+      "The resignations come more than a year after the entire police department of the small town of Goodhue, Minnesota, resigned over low pay."
+    ]
+  },
+  {
+    "id": 3,
     "source": "ABC",
     "category": "US",
     "title": "Nevada lithium mine will crush rare plant habitat US said is critical to its survival",
@@ -113,6 +94,25 @@
       "The lawsuit also discloses for the first time that the plant's population, numbering fewer than 30,000 in the government's latest estimates, has suffered additional losses since August that were not considered in the U.S. Fish and Wildlife Service's biological opinion.",
       "The damage is similar to what the bureau concluded was caused by rodents eating the plants in a 2020 incident that reduced the population as much as 60%, the lawsuit says.",
       "The Fish and Wildlife Service said in its August biological opinion that while the project \u201cwill result in the long-term disturbance (approximately 23 years) of 146 acres (59 hectares) of the plant community ... and the permanent loss of 45 acres (18 hectares), we do not expect the adverse effects to appreciably diminish the value of critical habitat as a whole.\u201d"
+    ]
+  },
+  {
+    "id": 4,
+    "source": "ABC",
+    "category": "US",
+    "title": "Top House Republicans seeking documents regarding Biden's 'garbage' comment",
+    "published": "Fri, 01 Nov 2024 21:42:26 -0400",
+    "summary": "Top House Republicans are seeking documents and internal communications regarding President Joe Biden&rsquo;s statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump",
+    "story": [
+      "Top House Republicans are seeking documents and internal communications regarding President Joe Biden\u2019s statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump",
+      "WASHINGTON -- Top House Republicans called on the White House to produce all documents and internal communications regarding President Joe Biden's statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump.",
+      "White House press officials altered the official transcript of Biden's statement, drawing objections from the federal workers who document such remarks for posterity, according to two U.S. government officials and an internal email obtained Thursday by The Associated Press.",
+      "The lawmakers said they question whether the decision to create \u201ca false transcript and manipulate or alter the accurate transcript\u201d produced for the National Archives and Records Administration was a violation of federal law.",
+      "Rep. James Comer, the Republican chair of the House Committee on Oversight and Accountability, and House Republican Conference Chairwoman Elise Stefanik demanded the White House produce the records. They're also calling for the White House to make available for a briefing the top supervisor of the White House Stenography's Office.",
+      "\u201cThe White House cannot simply rewrite President Biden\u2019s rhetoric,\u201d Comer and Stefanik wrote. \u201c...We are concerned with the latest reporting of the White House\u2019s apparent political decision to protect the Biden-Harris Administration, instead of following longstanding and proper protocols.\u201d",
+      "Biden created an uproar earlier this week with his remarks to Latino activists responding to racist comments at a Trump rally made by the comedian Tony Hinchcliffe, who referred to the U.S. island territory of Puerto Rico as a \u201cfloating island of garbage.\u201d",
+      "Biden, according to a transcript prepared by the official White House stenographers, told the Latino group on a Tuesday evening video call, \u201cThe only garbage I see floating out there is his supporters \u2014 his \u2014 his demonization of Latinos is unconscionable, and it\u2019s un-American.\u201d",
+      "The transcript released by the White House press office, however, rendered the quote with an apostrophe, reading \u201csupporter\u2019s\u201d rather than \u201csupporters,\u201d which aides said pointed to Biden criticizing Hinchcliffe, not the millions of Americans who are supporting Trump for president."
     ]
   },
   {
@@ -219,6 +219,42 @@
     "id": 9,
     "source": "ABC",
     "category": "US",
+    "title": "Trump will rally backers every day until the election in North Carolina, a swing state he won twice",
+    "published": "Sat, 02 Nov 2024 23:10:27 -0400",
+    "summary": "Donald Trump will rally supporters in North Carolina every day until Tuesday&rsquo;s election",
+    "story": [
+      "Donald Trump will rally supporters in North Carolina every day until Tuesday\u2019s election",
+      "GASTONIA, N.C. -- GASTONIA, N.C. (AP) \u2014 Donald Trump will rally supporters in North Carolina every day until Tuesday's election, a flurry of late activity in the only swing state that he won in both his 2016 and 2020 campaigns.",
+      "Even as Trump looks to expand the electoral map and project strength with trips to New Mexico and Virginia, two Democratic states not widely viewed as competitive, he is putting considerable time into North Carolina, which last backed a Democrat for president in 2008.",
+      "The former president's path to the 270 electoral votes needed to capture the presidency gets significantly more complicated if he loses North Carolina. The fast-growing Southern state gave Trump his smallest margin of victory \u2014 1.3 percentage points \u2014 over Democrat Joe Biden four years ago.",
+      "Trump campaigned in Gastonia, west of Charlotte, and Greensboro on Saturday, with a stop in Salem, Virginia, in between. He will be in the eastern city of Kinston on Sunday and in Raleigh on Monday. Those four rallies will bring his total events in North Carolina since Oct. 1 to nine. His running mate, Ohio Sen. JD Vance, has been in the state six times during the same period, most recently on Friday.",
+      "Vice President Kamala Harris, Trump's Democratic rival, also was in North Carolina on Saturday for a concert and rally in Charlotte. Her campaign has not announced any other travel to the state before Election Day, though she's sending her husband, second gentleman Doug Emhoff, to Greenville on Monday.",
+      "The extensive damage from Hurricane Helene across western North Carolina has created a dose of uncertainty about the state of play here. Flooding destroyed homes and displaced residents in several counties, including the liberal city of Asheville and the conservative rural areas surrounding it.",
+      "Trump's team has said it is confident about his chances in North Carolina. Democrats see Trump's attention on the state as a signal of optimism for Harris.",
+      "\u201cThe repeat appearances may signal Trump\u2019s campaign is in trouble,\u201d said Democratic state Rep. Marcia Morey of Durham. \u201cIf Trump continues with his dangerous, violent rhetoric these last few days, it may backfire. A campaign of personal retribution does not win votes from people.\u201d",
+      "Trump adviser Jason Miller said Trump's late-campaign travels are not a signal of alarm.",
+      "\u201cI'm not worried about anything,\" Miller told reporters Friday. \"We have a smart strategy that's going to get President Trump across 270, maybe even a couple of states that surprise you, that slide in there. But we\u2019re going to follow our strategy. Our strategy comes from our data and our targeting.\u201d",
+      "As he does at most of his events in North Carolina, Trump said in Gastonia that his daughter-in-law, Lara Trump, whom he installed as co-chair of the Republican National Committee, is from the state, and that Lara and Eric Trump named their daughter Carolina.",
+      "\u201cIt\u2019s an amazing place. You\u2019ve been through a lot,\u201d Trump said, alluding to the hurricane before repeating a debunked claim that the Federal Emergency Management Agency prioritized people living in the country illegally over hurricane victims. \u201cYour government has not helped you too much, I can tell you. Your government, FEMA, has let you down because they wanted to spend the money on illegal migrants instead.\u201d",
+      "Later in Greensboro, only about half of the seats were filled in a massive 22,000-seat arena when Trump started speaking after 9 p.m. Trump spoke at another arena that\u2019s part of the same complex just 11 days earlier, though Harris filled the larger venue when she spoke there recently.",
+      "Roughly half of North Carolina's 7.8 million registered voters had already voted as of Friday, buoyed by early in-person voting, which ended on Saturday afternoon.",
+      "North Carolina Republicans have been encouraged by early voter turnout among their supporters after national and state GOP leaders switched this year to a \u201cbank your vote\u201d strategy, rather than focusing on Election Day turnout.",
+      "Entering the final days of the campaign, over 50,000 more GOP registered voters than Democrats had voted early or by absentee ballot, even though there are over 100,000 more registered Democrats than Republicans statewide, according to state elections data. It is unclear whether the Republicans' early vote surge will result in a higher overall turnout for Trump supporters.",
+      "Independent voters now make up the largest group of registered voters in North Carolina. Trump lost ground with independents between 2016 and 2020.",
+      "Harris took the stage in Charlotte after rocker Jon Bon Jovi warmed up the crowd, sticking closely to the speech she's been delivering in her final tour of the battleground states.",
+      "Harris supporter Gwen Garnett, 66, said Trump barnstorming North Carolina is \u201cjust part of the process. It does not worry me at all.\u201d She gave Harris\u2019 candidacy a spiritual dimension.",
+      "\u201cThis is an anointed time for her to be in this role,\u201d Garnett said. \u201cI just believe it\u2019s God\u2019s timing.\u201d",
+      "The state\u2019s voters have shown a propensity to split their ticket over the years. That's why while Republicans have controlled the state legislature since 2011, Democrats have held the governor\u2019s mansion for all but four years since 1993.",
+      "The GOP's hopes to break that hold on Tuesday appeared to dwindle in recent weeks after the party\u2019s nominee for governor, Lt. Gov. Mark Robinson, received unwanted publicity from a CNN report that alleged he made explicit racial and sexual posts on a pornography website\u2019s message board more than a decade ago.",
+      "While Robinson denied writing the messages and sued CNN for defamation last month, his campaign nearly imploded, raising fears that a large victory by Democrat Josh Stein, the state's attorney general, could harm GOP candidates in other races.",
+      "___",
+      "Robertson reported from Raleigh and Charlotte, North Carolina. Associated Press writers Adriana Gomez Licon in Detroit and Jonathan J. Cooper in Phoenix contributed to this report."
+    ]
+  },
+  {
+    "id": 10,
+    "source": "ABC",
+    "category": "US",
     "title": "What to watch over the final weekend of the 2024 presidential campaign",
     "published": "Sat, 02 Nov 2024 17:02:22 -0400",
     "summary": "The 2024 presidential contest speeds into its final weekend with Democrat Kamala Harris and Republican Donald Trump locked in a razor-thin contest",
@@ -264,47 +300,23 @@
     ]
   },
   {
-    "id": 10,
-    "source": "ABC",
-    "category": "US",
-    "title": "Trump will rally backers every day until the election in North Carolina, a swing state he won twice",
-    "published": "Sat, 02 Nov 2024 23:10:27 -0400",
-    "summary": "Donald Trump will rally supporters in North Carolina every day until Tuesday&rsquo;s election",
-    "story": [
-      "Donald Trump will rally supporters in North Carolina every day until Tuesday\u2019s election",
-      "GASTONIA, N.C. -- GASTONIA, N.C. (AP) \u2014 Donald Trump will rally supporters in North Carolina every day until Tuesday's election, a flurry of late activity in the only swing state that he won in both his 2016 and 2020 campaigns.",
-      "Even as Trump looks to expand the electoral map and project strength with trips to New Mexico and Virginia, two Democratic states not widely viewed as competitive, he is putting considerable time into North Carolina, which last backed a Democrat for president in 2008.",
-      "The former president's path to the 270 electoral votes needed to capture the presidency gets significantly more complicated if he loses North Carolina. The fast-growing Southern state gave Trump his smallest margin of victory \u2014 1.3 percentage points \u2014 over Democrat Joe Biden four years ago.",
-      "Trump campaigned in Gastonia, west of Charlotte, and Greensboro on Saturday, with a stop in Salem, Virginia, in between. He will be in the eastern city of Kinston on Sunday and in Raleigh on Monday. Those four rallies will bring his total events in North Carolina since Oct. 1 to nine. His running mate, Ohio Sen. JD Vance, has been in the state six times during the same period, most recently on Friday.",
-      "Vice President Kamala Harris, Trump's Democratic rival, also was in North Carolina on Saturday for a concert and rally in Charlotte. Her campaign has not announced any other travel to the state before Election Day, though she's sending her husband, second gentleman Doug Emhoff, to Greenville on Monday.",
-      "The extensive damage from Hurricane Helene across western North Carolina has created a dose of uncertainty about the state of play here. Flooding destroyed homes and displaced residents in several counties, including the liberal city of Asheville and the conservative rural areas surrounding it.",
-      "Trump's team has said it is confident about his chances in North Carolina. Democrats see Trump's attention on the state as a signal of optimism for Harris.",
-      "\u201cThe repeat appearances may signal Trump\u2019s campaign is in trouble,\u201d said Democratic state Rep. Marcia Morey of Durham. \u201cIf Trump continues with his dangerous, violent rhetoric these last few days, it may backfire. A campaign of personal retribution does not win votes from people.\u201d",
-      "Trump adviser Jason Miller said Trump's late-campaign travels are not a signal of alarm.",
-      "\u201cI'm not worried about anything,\" Miller told reporters Friday. \"We have a smart strategy that's going to get President Trump across 270, maybe even a couple of states that surprise you, that slide in there. But we\u2019re going to follow our strategy. Our strategy comes from our data and our targeting.\u201d",
-      "As he does at most of his events in North Carolina, Trump said in Gastonia that his daughter-in-law, Lara Trump, whom he installed as co-chair of the Republican National Committee, is from the state, and that Lara and Eric Trump named their daughter Carolina.",
-      "\u201cIt\u2019s an amazing place. You\u2019ve been through a lot,\u201d Trump said, alluding to the hurricane before repeating a debunked claim that the Federal Emergency Management Agency prioritized people living in the country illegally over hurricane victims. \u201cYour government has not helped you too much, I can tell you. Your government, FEMA, has let you down because they wanted to spend the money on illegal migrants instead.\u201d",
-      "Later in Greensboro, only about half of the seats were filled in a massive 22,000-seat arena when Trump started speaking after 9 p.m. Trump spoke at another arena that\u2019s part of the same complex just 11 days earlier, though Harris filled the larger venue when she spoke there recently.",
-      "Roughly half of North Carolina's 7.8 million registered voters had already voted as of Friday, buoyed by early in-person voting, which ended on Saturday afternoon.",
-      "North Carolina Republicans have been encouraged by early voter turnout among their supporters after national and state GOP leaders switched this year to a \u201cbank your vote\u201d strategy, rather than focusing on Election Day turnout.",
-      "Entering the final days of the campaign, over 50,000 more GOP registered voters than Democrats had voted early or by absentee ballot, even though there are over 100,000 more registered Democrats than Republicans statewide, according to state elections data. It is unclear whether the Republicans' early vote surge will result in a higher overall turnout for Trump supporters.",
-      "Independent voters now make up the largest group of registered voters in North Carolina. Trump lost ground with independents between 2016 and 2020.",
-      "Harris took the stage in Charlotte after rocker Jon Bon Jovi warmed up the crowd, sticking closely to the speech she's been delivering in her final tour of the battleground states.",
-      "Harris supporter Gwen Garnett, 66, said Trump barnstorming North Carolina is \u201cjust part of the process. It does not worry me at all.\u201d She gave Harris\u2019 candidacy a spiritual dimension.",
-      "\u201cThis is an anointed time for her to be in this role,\u201d Garnett said. \u201cI just believe it\u2019s God\u2019s timing.\u201d",
-      "The state\u2019s voters have shown a propensity to split their ticket over the years. That's why while Republicans have controlled the state legislature since 2011, Democrats have held the governor\u2019s mansion for all but four years since 1993.",
-      "The GOP's hopes to break that hold on Tuesday appeared to dwindle in recent weeks after the party\u2019s nominee for governor, Lt. Gov. Mark Robinson, received unwanted publicity from a CNN report that alleged he made explicit racial and sexual posts on a pornography website\u2019s message board more than a decade ago.",
-      "While Robinson denied writing the messages and sued CNN for defamation last month, his campaign nearly imploded, raising fears that a large victory by Democrat Josh Stein, the state's attorney general, could harm GOP candidates in other races.",
-      "___",
-      "Robertson reported from Raleigh and Charlotte, North Carolina. Associated Press writers Adriana Gomez Licon in Detroit and Jonathan J. Cooper in Phoenix contributed to this report."
-    ]
-  },
-  {
     "id": 11,
     "source": "ABC",
     "category": "US",
+    "title": "Red Bull driver Max Verstappen wins Brazilian Grand Prix",
+    "published": "Sun, 03 Nov 2024 13:22:03 -0500",
+    "summary": "Red Bull driver Max Verstappen wins Brazilian Grand Prix",
+    "story": [
+      "Red Bull driver Max Verstappen wins Brazilian Grand Prix",
+      "SAO PAULO -- Red Bull driver Max Verstappen wins Brazilian Grand Prix."
+    ]
+  },
+  {
+    "id": 12,
+    "source": "ABC",
+    "category": "US",
     "title": "North Carolina sees turnout record with more than 4.2M ballots cast at early in-person voting sites",
-    "published": "Sun, 03 Nov 2024 13:22:30 -0500",
+    "published": "Sun, 03 Nov 2024 15:38:18 -0500",
     "summary": "North Carolina elections officials say that more than 4.2 million voters cast ballots at early in-person voting sites, with turnout in western counties hit by Hurricane Helene outpacing the rest of the state",
     "story": [
       "North Carolina elections officials say that more than 4.2 million voters cast ballots at early in-person voting sites, with turnout in western counties hit by Hurricane Helene outpacing the rest of the state",
@@ -319,31 +331,7 @@
     ]
   },
   {
-    "id": 12,
-    "source": "ABC",
-    "category": "US",
-    "title": "Red Bull driver Max Verstappen wins Brazilian Grand Prix",
-    "published": "Sun, 03 Nov 2024 13:22:03 -0500",
-    "summary": "Red Bull driver Max Verstappen wins Brazilian Grand Prix",
-    "story": [
-      "Red Bull driver Max Verstappen wins Brazilian Grand Prix",
-      "SAO PAULO -- Red Bull driver Max Verstappen wins Brazilian Grand Prix."
-    ]
-  },
-  {
     "id": 13,
-    "source": "ABC",
-    "category": "US",
-    "title": "TGI Friday's files for Chapter 11 bankruptcy protection",
-    "published": "Sat, 02 Nov 2024 13:10:01 -0400",
-    "summary": "TGI Friday's files for Chapter 11 bankruptcy protection",
-    "story": [
-      "TGI Friday's files for Chapter 11 bankruptcy protection",
-      "DALLAS -- TGI Friday's files for Chapter 11 bankruptcy protection."
-    ]
-  },
-  {
-    "id": 14,
     "source": "ABC",
     "category": "US",
     "title": "Warren Buffett is sitting on over $325 billion cash as Berkshire Hathaway keeps selling Apple stock",
@@ -367,6 +355,18 @@
       "Berkshire did resolve one mystery from the quarter by spelling out how much it paid to acquire the rest of the shares in its utility business from the estate of former Berkshire board member Walter Scott.",
       "Berkshire said it paid $2.4 billion cash, issued $600 million in debt and gave the Scott family Class B Berkshire shares worth a little over $1 billion. So the total compensation was about $4 billion. That means the Scott family didn\u2019t get nearly as good of a price for their 8% stake in the utilities as when Berkshire Vice Chairman Greg Abel sold his 1% stake in the utility business two years ago for $870 million.",
       "Abel is slated to succeed the 94-year-old Buffett as CEO in the event of his death."
+    ]
+  },
+  {
+    "id": 14,
+    "source": "ABC",
+    "category": "US",
+    "title": "TGI Friday's files for Chapter 11 bankruptcy protection",
+    "published": "Sat, 02 Nov 2024 13:10:01 -0400",
+    "summary": "TGI Friday's files for Chapter 11 bankruptcy protection",
+    "story": [
+      "TGI Friday's files for Chapter 11 bankruptcy protection",
+      "DALLAS -- TGI Friday's files for Chapter 11 bankruptcy protection."
     ]
   },
   {
@@ -454,8 +454,34 @@
     "id": 18,
     "source": "ABC",
     "category": "US",
+    "title": "Massachusetts firefighters continue to battle stubborn brush fires across state",
+    "published": "Sun, 03 Nov 2024 15:27:47 -0500",
+    "summary": "Firefighters in Massachusetts are continuing to battle stubborn brush fires across the state with officials urging residents to take precautions to help avoid sparking new blazes",
+    "story": [
+      "Firefighters in Massachusetts are continuing to battle stubborn brush fires across the state with officials urging residents to take precautions to help avoid sparking new blazes",
+      "BOSTON -- Firefighters in Massachusetts are continuing to battle stubborn brush fires across the state with officials urging residents to take precautions to help avoid sparking new blazes.",
+      "Hundreds of acres (hectares) in the greater Boston area have already burned in the past week with new fires cropping up in the western and central parts of the state.",
+      "In Massachusetts, an average of 15 wildland fires are reported each October. This year, the month\u2019s total capped at about 200 \u2014 an increase of about 1,200% over the average, rivalling the monthly numbers usually seen in the traditional early spring brush fire season.",
+      "About 100 fire were reported over the last seven days of the month and preliminary information indicates that all of them started with human activity, according to fire officials. The fires prompted some communities last week to cancel school classes and Halloween activities.",
+      "On Friday, the National Weather Service declared a \u201cred flag\u201d warning for much of eastern Massachusetts. The warning means that the region, which has been experiencing dry and warm weather, is at high risk of fire.",
+      "Fire officials have reminded residents that open burning is prohibited statewide through January and in many communities year-round.",
+      "They also urged residents to avoid outdoor cooking and heating and to use caution when using power equipment like lawnmowers and leaf blowers. The engines can become hot enough to ignite dry leaves and grass.",
+      "Fire officials also cautioned against tossing cigarette butts, matches, or other smoking materials over the edge of a balcony, stub them out on stairs or railings, or toss them in dry vegetation or debris.",
+      "On Saturday, a Boston man was arrested in connection to a brush fire in Milford, about 40 miles (64 kilometers) west of Boston. The man was charged with setting fire to another\u2019s land and burning land, trees, lumber and produce.",
+      "More than a quarter of this year's brush and wildland fires took place in October, according to Chief Fire Warden David Celino of the Massachusetts Department of Conservation and Recreation. The October fires have also accounted for more than half of the 1,158 acres (469 hectares) burned so far this year.",
+      "\u201cThe weather conditions and dry surface fuels that have contributed to these fast-moving fires are expected to continue in the days ahead,\" Celino said in a press release. \"Any outdoor fire will grow quickly, become difficult to control, and require numerous firefighting resources.\u201d",
+      "State Fire Marshal Jon Davine said about 45% of Massachusetts homes are in or near wooded areas at risk for brush and wildland fires. Many of those fires have started with activity around the house, like outdoor cooking and using lawn tractors and other power equipment, he added.",
+      "Related Topics",
+      "Wildfires",
+      "Wildfires"
+    ]
+  },
+  {
+    "id": 19,
+    "source": "ABC",
+    "category": "US",
     "title": "Iran\u2019s help has transformed Yemen's Houthi rebels into a potent military force, UN experts say",
-    "published": "Sun, 03 Nov 2024 11:38:25 -0500",
+    "published": "Sun, 03 Nov 2024 15:46:17 -0500",
     "summary": "U.N. experts say Yemen&rsquo;s Houthi rebels have been transformed from a local armed group with limited capabilities to a powerful military organization with support from Iran, Iraqi armed groups, Lebanon&rsquo;s Hezbollah militants and others",
     "story": [
       "U.N. experts say Yemen\u2019s Houthi rebels have been transformed from a local armed group with limited capabilities to a powerful military organization with support from Iran, Iraqi armed groups, Lebanon\u2019s Hezbollah militants and others",
@@ -480,32 +506,6 @@
       "The Houthis also have been recruiting large numbers of Yemeni youths and children as well as exploiting Ethiopian migrants, forcing them to join the fight against the government and engage in trafficking narcotics, it said.",
       "\u201cExploiting high illiteracy rates, particularly in tribal areas, they have reportedly mobilized boys as young as 10 or 11, often despite parental opposition,\u201d they said. \u201cRecruitment sermons and weekly classes on jihad are reportedly delivered in schools.\u201d",
       "Child recruitment reportedly increased after the war in Gaza started and the U.S. and U.K. airstrikes in Yemen, the experts said. Yemen\u2019s government said it received 3,298 reports of child recruitment in the first half of 2024, with youngsters reportedly used as human shields, spies and in combat \u2014 and for planting landmines and explosives, reconnaissance and as cooks."
-    ]
-  },
-  {
-    "id": 19,
-    "source": "ABC",
-    "category": "US",
-    "title": "Massachusetts firefighters continue to battle stubborn brush fires across state",
-    "published": "Sun, 03 Nov 2024 15:27:47 -0500",
-    "summary": "Firefighters in Massachusetts are continuing to battle stubborn brush fires across the state with officials urging residents to take precautions to help avoid sparking new blazes",
-    "story": [
-      "Firefighters in Massachusetts are continuing to battle stubborn brush fires across the state with officials urging residents to take precautions to help avoid sparking new blazes",
-      "BOSTON -- Firefighters in Massachusetts are continuing to battle stubborn brush fires across the state with officials urging residents to take precautions to help avoid sparking new blazes.",
-      "Hundreds of acres (hectares) in the greater Boston area have already burned in the past week with new fires cropping up in the western and central parts of the state.",
-      "In Massachusetts, an average of 15 wildland fires are reported each October. This year, the month\u2019s total capped at about 200 \u2014 an increase of about 1,200% over the average, rivalling the monthly numbers usually seen in the traditional early spring brush fire season.",
-      "About 100 fire were reported over the last seven days of the month and preliminary information indicates that all of them started with human activity, according to fire officials. The fires prompted some communities last week to cancel school classes and Halloween activities.",
-      "On Friday, the National Weather Service declared a \u201cred flag\u201d warning for much of eastern Massachusetts. The warning means that the region, which has been experiencing dry and warm weather, is at high risk of fire.",
-      "Fire officials have reminded residents that open burning is prohibited statewide through January and in many communities year-round.",
-      "They also urged residents to avoid outdoor cooking and heating and to use caution when using power equipment like lawnmowers and leaf blowers. The engines can become hot enough to ignite dry leaves and grass.",
-      "Fire officials also cautioned against tossing cigarette butts, matches, or other smoking materials over the edge of a balcony, stub them out on stairs or railings, or toss them in dry vegetation or debris.",
-      "On Saturday, a Boston man was arrested in connection to a brush fire in Milford, about 40 miles (64 kilometers) west of Boston. The man was charged with setting fire to another\u2019s land and burning land, trees, lumber and produce.",
-      "More than a quarter of this year's brush and wildland fires took place in October, according to Chief Fire Warden David Celino of the Massachusetts Department of Conservation and Recreation. The October fires have also accounted for more than half of the 1,158 acres (469 hectares) burned so far this year.",
-      "\u201cThe weather conditions and dry surface fuels that have contributed to these fast-moving fires are expected to continue in the days ahead,\" Celino said in a press release. \"Any outdoor fire will grow quickly, become difficult to control, and require numerous firefighting resources.\u201d",
-      "State Fire Marshal Jon Davine said about 45% of Massachusetts homes are in or near wooded areas at risk for brush and wildland fires. Many of those fires have started with activity around the house, like outdoor cooking and using lawn tractors and other power equipment, he added.",
-      "Related Topics",
-      "Wildfires",
-      "Wildfires"
     ]
   },
   {
@@ -819,40 +819,30 @@
     "id": 28,
     "source": "BBC",
     "category": "World",
-    "title": "Moldova's pro-EU leader in tight run-off as Russia accused of meddling",
-    "published": "Sun, 03 Nov 2024 19:12:29 GMT",
-    "summary": "President Maia Sandu is in a race seen as a choice between Europe and a return to Russian influence.",
+    "title": "Russia-friendly candidate ahead in Moldovan vote amid claims of Kremlin meddling",
+    "published": "Sun, 03 Nov 2024 20:45:39 GMT",
+    "summary": "Alexandr Stoianoglo, backed by the pro-Russian Party of Socialists, has promised a closer relationship with Moscow.",
     "story": [
-      "Moldovans have voted in the second round run-off of a presidential election seen as a choice between a European future or a return to Russian influence.",
-      "Pro-European President Maia Sandu faces Alexandr Stoianoglo, a man she fired as chief prosecutor, who has promised to balance foreign policy between the West and Russia and has the backing of the pro-Russian Party of Socialists.",
-      "Sandu and Moldova's authorities have warned that a fugitive oligarch now based in Russia is trying to buy the election for Moscow.",
-      "The Kremlin has denied interfering in the vote, much as it did during last weekend's disputed elections in Georgia, whose president described the vote as a \"Russian special operation\".",
-      "Two pivotal votes on future in Europe  in Moldova and Georgia",
-      "Moldova says 'Yes' to pro-EU constitutional changes by tiny margin",
-      "\"We resolutely reject any accusations that we are somehow interfering in this. We are not doing this,\" said Kremlin spokesman Dmitry Peskov.",
-      "However, Maia Sandu's national security adviser, Stanislav Secrieru, said on Sunday that \"massive interference by Russia\" was taking place in Moldova's electoral process, which he said had \"high potential to distort the outcome\".",
-      "Sandu won the first round of the vote two weeks ago with 42.4%, well ahead of Alexandr Stoianoglo on 26%, but short of the 50% she needed to win outright. His vote is likely to increase because of the votes of candidates who failed to reach the run-off.",
-      "After voting, Sandu warned Moldovans that \"thieves\" wanted to buy their vote and their country and she called on them to preserve their country's independence.",
-      "Stoianoglo, who promises to be an \"apolitical president\" for everyone, told reporters he had voted for \"a Moldova that should develop in harmony with both the West and the East\".",
-      "But commentators and politicians have warned that a Stoianoglu victory could radically change the political landscape in the Danube and Black Sea region, not because he is some kind of \"Trojan horse\", but rather because Russia has thrown its weight behind him.",
-      "By the time polls closed in Moldova at 21:00 (19:00 GMT) 54% of Moldovans had voted, with big queues reported in Moscow and Belarus as well as at polling stations in Romania, France and Italy.",
+      "The man challenging Moldova's pro-EU leader Maia Sandu for the presidency has taken a narrow lead, according to preliminary results, in a pivotal presidential election run-off seen as a choice between Europe and Russia.",
+      "Alexandr Stoianoglo, who was backed by the pro-Russian Party of Socialists, had promised a closer relationship with Moscow, after Sandu spearheaded Moldova into talks on EU membership.",
+      "The Central Election Commission said with more than 89% of the vote counted, Stoianoglo was on 50.97% of the vote and Sandu 49.03%.",
+      "During the vote, the president's national security adviser said there had been \"massive interference\" from Russia in Moldova's electoral process that had \"high potential to distort the outcome\".",
+      "Russia had already denied meddling in the vote, which came a week after another key Eastern European election in Georgia, whose president said it had been a \"Russian special operation\".",
+      "Alexandr Stoianoglo, who was fired as prosecutor general by Sandu, has denied being pro-Kremlin.",
+      "Voting ended in Moldova at 21:00 (19:00 GMT), with a 54% turnout higher than four years ago, and especially high among expat voters at polling stations abroad. The result is likely to become even tighter as results from polling stations in the EU and the US become clear.",
+      "As polls closed, both Maia Sandu and her rival thanked voters, with Stoianoglu speaking in Russian as well as Romanian. Although Romanian is Moldova's main language, Russian is widely spoken because of its Soviet past.",
+      "Casting his ballot, he promised to be an \"apolitical president\" for everyone, telling reporters he had voted for \"a Moldova that should develop in harmony with both the West and the East\".",
+      "Sandu appealed after casting her ballot for Moldovans to preserve their independence, warning of \"thieves\" who sought to buy their vote and their country.",
+      "Presidential national security adviser Stanislav Secrieru said Russia had organised buses and large charter flights to bring voters to polling stations. Bomb scares had briefly disrupted voting in Moldova, at UK polling stations in Liverpool and Northampton and at Frankfurt and Kaiserslautern in Germany, he added.",
+      "A Soviet republic for 51 years, Moldova is flanked by Ukraine and Romania and one of Europe's poorest countries. It has a population of 2.5 million and an expat population of 1.2 million.",
+      "Moldova's authorities have long warned that a fugitive oligarch called Ilan Shor has spent $39m (\u00a330m) trying to buy the election for Moscow with handouts to 138,000 Moldovans.",
+      "Shor, who is based in Moscow, denies wrongdoing but did promise cash payments to anyone prepared to back his call for a \"firm No\" to the EU.",
+      "Commentators and politicians had warned that a Stoianoglu victory could radically change the political landscape in the Danube and Black Sea region, not because he was some kind of \"Trojan horse\", but rather because Russia has thrown its weight behind him.",
+      "There were queues at polling stations in Moscow, Italy and among voters from a mainly Russian-speaking breakaway region of Transnistria, who had to cross the River Dniester into Moldovan-controlled territory to vote. Transnistria is home to a Russian military base and a huge arms depot.",
       "Moldova's election commission said it was aware of reports of organised and illegal transports of voters by air and land in Russia, Belarus, Azerbaijan and Turkey, and appealed to the public to report further violations.",
-      "Stanislav Secrieru said Russia had organised buses and large charter flights to bring voters to polling stations.",
-      "Former Moldovan Defence Minister Anatol Salaru said the election would decide whether Moldova would \"continue the process of European integration or return to the Russia fold\".",
-      "A former Soviet republic flanked by Ukraine and Romania and one of Europe's poorest countries, Moldova has a population of 2.5 million. It also has a large expat population of 1.2 million, whose votes could prove key to Maia Sandu in the run-off.",
-      "Moldova has opened talks on joining the European Union, and on the same day of the first round Moldovans voted by a whisker to back a change to the constitution embracing the commitment to join the EU.",
-      "The tiny margin in favour came as a surprise, although Maia Sandu said there was clear evidence of attempts to buy 300,000 votes.",
-      "The BBC spoke to one voter who said she and others had sold their votes for up to 1,000 roubles (\u00a38).",
-      "Among the 1,988 polling stations open in Moldova until 21:00 (19:00G) on Sunday, 30 were opened for voters from the mainly Russian-speaking breakaway region of Transnistria, which borders Ukraine and is home to a Russian military base with 1,500 troops and a huge arms depot.",
-      "Voters had to cross the River Dniester into Moldovan-controlled territory and local media showed images of cars streaming over a bridge to vote in the eastern town of Rezina.",
-      "Whatever Russia's role behind the scenes, police said fugitive oligarch Ilan Shor had moved $39m (\u00a330m) over two months from Moscow into Moldovan bank accounts in September and October, benefiting at least 138,000 voters.",
-      "Shor denies wrongdoing but did promise cash handouts to people prepared to back his call for a \"firm No\" to the EU. He faces a lengthy jail sentence in Moldova for money laundering and embezzlement.",
-      "Stoianoglo denies links to Ilan Shor but he does have the backing of the opposition pro-Russian Party of Socialists, led by ex-president Igor Dodon.",
-      "A populist ex-mayor who came third has refused to back either him or Maia Sandu, criticising both in equal measure.",
-      "\"Do what you see fit. You must decide on your own,\" Renato Usatii told his supporters, blowing the race wide open.",
-      "Georgian vote result makes no statistical sense - Western pollsters",
-      "Russian cash-for-votes flows into Moldova as nation heads to polls",
-      "Moldova takes difficult step on path to joining EU"
+      "Although Sandu had easily won the first round of the vote, several candidates swung behind Stoianoglo, although the third-placed candidate refused to back either of the two.",
+      "The first round coincided with a nail-biting referendum on backing a change to the constitution embracing the commitment to join the EU.",
+      "In the end the vote passed by a tiny margin in favour, and Maia Sandu said there had been clear evidence of attempts to buy 300,000 votes."
     ]
   },
   {

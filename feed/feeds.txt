@@ -3,3 +3,4 @@ BBC,World,http://feeds.bbci.co.uk/news/world/rss.xml
 CBS,US,https://www.cbsnews.com/latest/rss/us
 FOX,US,https://moxie.foxnews.com/google-publisher/us.xml
 HuffPost,US News,https://chaski.huffpost.com/us/auto/vertical/us-news
+NBC,News,https://feeds.nbcnews.com/nbcnews/public/news

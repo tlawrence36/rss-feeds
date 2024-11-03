@@ -22,6 +22,6 @@ jobs:
         run: python get_feeds.py
       - name: Commit and push changes
         run: |
-          git add feed.json
+          git add ./src/data/feed.json
           git commit -m "Automated file creation"
           git push origin main

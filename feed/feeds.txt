@@ -1,1 +1,2 @@
 ABC,US,https://abcnews.go.com/abcnews/usheadlines
+BBC,World,http://feeds.bbci.co.uk/news/world/rss.xml

@@ -1,6 +1,6 @@
 name: Update Feeds
 on: [push]
-    workflow_dispatch:
+workflow_dispatch:
 jobs:
   python-script:
     runs-on: ubuntu-latest

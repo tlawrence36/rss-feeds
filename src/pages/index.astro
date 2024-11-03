@@ -60,6 +60,22 @@ const formatDate = (dateString:string) => {
 		e.addEventListener('click', () => displayArticle(id))
 	})
 
+	// side menu - listener
+	const elArray = document.querySelectorAll('li');
+	elArray.forEach((e) => {
+		const feedName = e.innerHTML;
+		e.addEventListener('click', () => setCurrentFeed(feedName))
+	});
+
+	function setCurrentFeed(feed:string): void {
+		window.scrollTo({top: 0, behavior: 'smooth'});
+		const rows = document.querySelectorAll(`div[data-feed=${feed}]`);
+		rows.forEach((el) => el.classList.add('show'));
+		const el = document.getElementById("current")!;
+		el.innerHTML = feed;
+		// currentFeed.set(feed);
+	}
+
 	const displayArticle = (id:string) => {
 		const dialog = document.querySelector("dialog")!;
 		const closeButton = document.querySelector("dialog button")!;
@@ -82,13 +98,23 @@ const formatDate = (dateString:string) => {
 
 	}
 
+	// currentFeed.subscribe((feed: string) => {
+	// 	const allRows = document.querySelectorAll('div.item');
+	// 	allRows.forEach((el) => el.classList.remove('show'));
+	// 	const rows = document.querySelectorAll(`div[data-feed=${feed}]`);
+	// 	rows.forEach((el) => el.classList.add('show'));
+	// 	const el = document.getElementById("current")!;
+	// 	el.innerHTML = feed;
+	// });
+
 	window.onload = function () {
 		window.scrollTo({top: 0, behavior: 'smooth'});
 		const initSource = articles[0].source;
-		const rows = document.querySelectorAll(`div[data-feed=${initSource}]`);
-		rows.forEach((el) => el.classList.add('show'));
-		const el = document.getElementById("current")!;
-		el.innerHTML = initSource;
+		setCurrentFeed(initSource);
+		// const rows = document.querySelectorAll(`div[data-feed=${initSource}]`);
+		// rows.forEach((el) => el.classList.add('show'));
+		// const el = document.getElementById("current")!;
+		// el.innerHTML = initSource;
 	}
 
 	// window.onbeforeunload = () => {

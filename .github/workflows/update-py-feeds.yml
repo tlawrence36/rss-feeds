@@ -47,9 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sleep for 1 minute
-        uses: actions/sleep@v2
-        with:
-          time: 1m
+        run: sleep 1m
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: Install, build, and upload your site

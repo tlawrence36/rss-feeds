@@ -1,4 +1,4 @@
-name: Update Feeds
+name: Update Python Feeds
 on:
   push:
     branches: [main]
@@ -20,3 +20,8 @@ jobs:
           pip install -r requirements.txt
       - name: Run Python script
         run: python get_feeds.py
+      - name: Commit and push changes
+        run: |
+          git add feed.json
+          git commit -m "Automated file creation"
+          git push origin main

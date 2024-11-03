@@ -23,7 +23,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config user.email "tjlawren@gmail.com"
-          git config user.name "Tim Lawrence"
+          git config user.name "tlawrence36"
           git add feed.json
           git commit -m "Automated file creation"
           git push origin main

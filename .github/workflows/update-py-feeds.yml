@@ -19,9 +19,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Run Python script
-        run: python get_feeds.py
+        run: python './feed/get_feeds.py'
       - name: Commit and push changes
         run: |
-          git add './src/data/feed.json'
+          git add './feed/feed.json'
           git commit -m "Automated file creation"
           git push origin main

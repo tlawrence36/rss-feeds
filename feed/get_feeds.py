@@ -10,7 +10,7 @@ content = [] # JSON of all content
 def fetch_feeds_list(): # use filename param?
     print('get list of feeds to use')
     # get list of names to use
-    with open("/feed/feeds.txt") as feeds_file:
+    with open("feed/feeds.txt") as feeds_file:
         feeds = feeds_file.readlines()
         for feed in feeds:
             feed_info = feed.replace('\n', '').split(',')

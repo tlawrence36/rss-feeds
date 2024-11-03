@@ -51,8 +51,8 @@ const formatDate = (dateString:string) => {
 </Layout>
 
 <script>
-	import { currentFeed } from '../store.js';
-	import articles from '../data/feed.json';
+	import articles from '../../feed.json';
+import { feedSources } from '../store';
 
 	// article links - listener
 	const articleLinks = document.querySelectorAll('.link');
@@ -62,16 +62,16 @@ const formatDate = (dateString:string) => {
 	})
 
 	// side menu - listener
-	const elArray = document.querySelectorAll('li');
-	elArray.forEach((e) => {
-		const feedName = e.innerHTML;
-		e.addEventListener('click', () => setCurrentFeed(feedName))
-	});
+	// const elArray = document.querySelectorAll('li');
+	// elArray.forEach((e) => {
+	// 	const feedName = e.innerHTML;
+	// 	e.addEventListener('click', () => setCurrentFeed(feedName))
+	// });
 
-	function setCurrentFeed(feed:string): void {
-		window.scrollTo({top: 0, behavior: 'smooth'});
-		currentFeed.set(feed);
-	}
+	// function setCurrentFeed(feed:string): void {
+	// 	window.scrollTo({top: 0, behavior: 'smooth'});
+	// 	currentFeed.set(feed);
+	// }
 
 	const displayArticle = (id:string) => {
 		const dialog = document.querySelector("dialog")!;
@@ -95,17 +95,22 @@ const formatDate = (dateString:string) => {
 
 	}
 
-	currentFeed.subscribe((feed: string) => {
-		const allRows = document.querySelectorAll('div.item');
-		allRows.forEach((el) => el.classList.remove('show'));
-		const rows = document.querySelectorAll(`div[data-feed=${feed}]`);
-		rows.forEach((el) => el.classList.add('show'));
-		const el = document.getElementById("current")!;
-		el.innerHTML = feed;
-	});
+	// currentFeed.subscribe((feed: string) => {
+	// 	const allRows = document.querySelectorAll('div.item');
+	// 	allRows.forEach((el) => el.classList.remove('show'));
+	// 	const rows = document.querySelectorAll(`div[data-feed=${feed}]`);
+	// 	rows.forEach((el) => el.classList.add('show'));
+	// 	const el = document.getElementById("current")!;
+	// 	el.innerHTML = feed;
+	// });
 
 	window.onload = function () {
 		window.scrollTo({top: 0, behavior: 'smooth'});
+		const initSource = articles[0].source;
+		const rows = document.querySelectorAll(`div[data-feed=${initSource}]`);
+		rows.forEach((el) => el.classList.add('show'));
+		const el = document.getElementById("current")!;
+		el.innerHTML = initSource;
 	}
 
 	// window.onbeforeunload = () => {

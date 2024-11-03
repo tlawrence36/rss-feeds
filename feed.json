@@ -3,6 +3,25 @@
     "id": 1,
     "source": "ABC",
     "category": "US",
+    "title": "Top House Republicans seeking documents regarding Biden's 'garbage' comment",
+    "published": "Fri, 01 Nov 2024 21:42:26 -0400",
+    "summary": "Top House Republicans are seeking documents and internal communications regarding President Joe Biden&rsquo;s statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump",
+    "story": [
+      "Top House Republicans are seeking documents and internal communications regarding President Joe Biden\u2019s statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump",
+      "WASHINGTON -- Top House Republicans called on the White House to produce all documents and internal communications regarding President Joe Biden's statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump.",
+      "White House press officials altered the official transcript of Biden's statement, drawing objections from the federal workers who document such remarks for posterity, according to two U.S. government officials and an internal email obtained Thursday by The Associated Press.",
+      "The lawmakers said they question whether the decision to create \u201ca false transcript and manipulate or alter the accurate transcript\u201d produced for the National Archives and Records Administration was a violation of federal law.",
+      "Rep. James Comer, the Republican chair of the House Committee on Oversight and Accountability, and House Republican Conference Chairwoman Elise Stefanik demanded the White House produce the records. They're also calling for the White House to make available for a briefing the top supervisor of the White House Stenography's Office.",
+      "\u201cThe White House cannot simply rewrite President Biden\u2019s rhetoric,\u201d Comer and Stefanik wrote. \u201c...We are concerned with the latest reporting of the White House\u2019s apparent political decision to protect the Biden-Harris Administration, instead of following longstanding and proper protocols.\u201d",
+      "Biden created an uproar earlier this week with his remarks to Latino activists responding to racist comments at a Trump rally made by the comedian Tony Hinchcliffe, who referred to the U.S. island territory of Puerto Rico as a \u201cfloating island of garbage.\u201d",
+      "Biden, according to a transcript prepared by the official White House stenographers, told the Latino group on a Tuesday evening video call, \u201cThe only garbage I see floating out there is his supporters \u2014 his \u2014 his demonization of Latinos is unconscionable, and it\u2019s un-American.\u201d",
+      "The transcript released by the White House press office, however, rendered the quote with an apostrophe, reading \u201csupporter\u2019s\u201d rather than \u201csupporters,\u201d which aides said pointed to Biden criticizing Hinchcliffe, not the millions of Americans who are supporting Trump for president."
+    ]
+  },
+  {
+    "id": 2,
+    "source": "ABC",
+    "category": "US",
     "title": "Debate over abortion rights leads to expensive campaigns for high-stakes state Supreme Court seats",
     "published": "Sat, 02 Nov 2024 11:58:27 -0400",
     "summary": "The debate over abortion rights is leading to expensive campaigns for state Supreme Courts in several states this year",
@@ -42,7 +61,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "source": "ABC",
     "category": "US",
     "title": "Small town police chief, entire police department resign with little explanation",
@@ -69,7 +88,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "source": "ABC",
     "category": "US",
     "title": "Nevada lithium mine will crush rare plant habitat US said is critical to its survival",
@@ -94,25 +113,6 @@
       "The lawsuit also discloses for the first time that the plant's population, numbering fewer than 30,000 in the government's latest estimates, has suffered additional losses since August that were not considered in the U.S. Fish and Wildlife Service's biological opinion.",
       "The damage is similar to what the bureau concluded was caused by rodents eating the plants in a 2020 incident that reduced the population as much as 60%, the lawsuit says.",
       "The Fish and Wildlife Service said in its August biological opinion that while the project \u201cwill result in the long-term disturbance (approximately 23 years) of 146 acres (59 hectares) of the plant community ... and the permanent loss of 45 acres (18 hectares), we do not expect the adverse effects to appreciably diminish the value of critical habitat as a whole.\u201d"
-    ]
-  },
-  {
-    "id": 4,
-    "source": "ABC",
-    "category": "US",
-    "title": "Top House Republicans seeking documents regarding Biden's 'garbage' comment",
-    "published": "Fri, 01 Nov 2024 21:42:26 -0400",
-    "summary": "Top House Republicans are seeking documents and internal communications regarding President Joe Biden&rsquo;s statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump",
-    "story": [
-      "Top House Republicans are seeking documents and internal communications regarding President Joe Biden\u2019s statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump",
-      "WASHINGTON -- Top House Republicans called on the White House to produce all documents and internal communications regarding President Joe Biden's statement earlier this week in which he appeared to take a swipe at supporters of Donald Trump.",
-      "White House press officials altered the official transcript of Biden's statement, drawing objections from the federal workers who document such remarks for posterity, according to two U.S. government officials and an internal email obtained Thursday by The Associated Press.",
-      "The lawmakers said they question whether the decision to create \u201ca false transcript and manipulate or alter the accurate transcript\u201d produced for the National Archives and Records Administration was a violation of federal law.",
-      "Rep. James Comer, the Republican chair of the House Committee on Oversight and Accountability, and House Republican Conference Chairwoman Elise Stefanik demanded the White House produce the records. They're also calling for the White House to make available for a briefing the top supervisor of the White House Stenography's Office.",
-      "\u201cThe White House cannot simply rewrite President Biden\u2019s rhetoric,\u201d Comer and Stefanik wrote. \u201c...We are concerned with the latest reporting of the White House\u2019s apparent political decision to protect the Biden-Harris Administration, instead of following longstanding and proper protocols.\u201d",
-      "Biden created an uproar earlier this week with his remarks to Latino activists responding to racist comments at a Trump rally made by the comedian Tony Hinchcliffe, who referred to the U.S. island territory of Puerto Rico as a \u201cfloating island of garbage.\u201d",
-      "Biden, according to a transcript prepared by the official White House stenographers, told the Latino group on a Tuesday evening video call, \u201cThe only garbage I see floating out there is his supporters \u2014 his \u2014 his demonization of Latinos is unconscionable, and it\u2019s un-American.\u201d",
-      "The transcript released by the White House press office, however, rendered the quote with an apostrophe, reading \u201csupporter\u2019s\u201d rather than \u201csupporters,\u201d which aides said pointed to Biden criticizing Hinchcliffe, not the millions of Americans who are supporting Trump for president."
     ]
   },
   {
@@ -219,42 +219,6 @@
     "id": 9,
     "source": "ABC",
     "category": "US",
-    "title": "Trump will rally backers every day until the election in North Carolina, a swing state he won twice",
-    "published": "Sat, 02 Nov 2024 23:10:27 -0400",
-    "summary": "Donald Trump will rally supporters in North Carolina every day until Tuesday&rsquo;s election",
-    "story": [
-      "Donald Trump will rally supporters in North Carolina every day until Tuesday\u2019s election",
-      "GASTONIA, N.C. -- GASTONIA, N.C. (AP) \u2014 Donald Trump will rally supporters in North Carolina every day until Tuesday's election, a flurry of late activity in the only swing state that he won in both his 2016 and 2020 campaigns.",
-      "Even as Trump looks to expand the electoral map and project strength with trips to New Mexico and Virginia, two Democratic states not widely viewed as competitive, he is putting considerable time into North Carolina, which last backed a Democrat for president in 2008.",
-      "The former president's path to the 270 electoral votes needed to capture the presidency gets significantly more complicated if he loses North Carolina. The fast-growing Southern state gave Trump his smallest margin of victory \u2014 1.3 percentage points \u2014 over Democrat Joe Biden four years ago.",
-      "Trump campaigned in Gastonia, west of Charlotte, and Greensboro on Saturday, with a stop in Salem, Virginia, in between. He will be in the eastern city of Kinston on Sunday and in Raleigh on Monday. Those four rallies will bring his total events in North Carolina since Oct. 1 to nine. His running mate, Ohio Sen. JD Vance, has been in the state six times during the same period, most recently on Friday.",
-      "Vice President Kamala Harris, Trump's Democratic rival, also was in North Carolina on Saturday for a concert and rally in Charlotte. Her campaign has not announced any other travel to the state before Election Day, though she's sending her husband, second gentleman Doug Emhoff, to Greenville on Monday.",
-      "The extensive damage from Hurricane Helene across western North Carolina has created a dose of uncertainty about the state of play here. Flooding destroyed homes and displaced residents in several counties, including the liberal city of Asheville and the conservative rural areas surrounding it.",
-      "Trump's team has said it is confident about his chances in North Carolina. Democrats see Trump's attention on the state as a signal of optimism for Harris.",
-      "\u201cThe repeat appearances may signal Trump\u2019s campaign is in trouble,\u201d said Democratic state Rep. Marcia Morey of Durham. \u201cIf Trump continues with his dangerous, violent rhetoric these last few days, it may backfire. A campaign of personal retribution does not win votes from people.\u201d",
-      "Trump adviser Jason Miller said Trump's late-campaign travels are not a signal of alarm.",
-      "\u201cI'm not worried about anything,\" Miller told reporters Friday. \"We have a smart strategy that's going to get President Trump across 270, maybe even a couple of states that surprise you, that slide in there. But we\u2019re going to follow our strategy. Our strategy comes from our data and our targeting.\u201d",
-      "As he does at most of his events in North Carolina, Trump said in Gastonia that his daughter-in-law, Lara Trump, whom he installed as co-chair of the Republican National Committee, is from the state, and that Lara and Eric Trump named their daughter Carolina.",
-      "\u201cIt\u2019s an amazing place. You\u2019ve been through a lot,\u201d Trump said, alluding to the hurricane before repeating a debunked claim that the Federal Emergency Management Agency prioritized people living in the country illegally over hurricane victims. \u201cYour government has not helped you too much, I can tell you. Your government, FEMA, has let you down because they wanted to spend the money on illegal migrants instead.\u201d",
-      "Later in Greensboro, only about half of the seats were filled in a massive 22,000-seat arena when Trump started speaking after 9 p.m. Trump spoke at another arena that\u2019s part of the same complex just 11 days earlier, though Harris filled the larger venue when she spoke there recently.",
-      "Roughly half of North Carolina's 7.8 million registered voters had already voted as of Friday, buoyed by early in-person voting, which ended on Saturday afternoon.",
-      "North Carolina Republicans have been encouraged by early voter turnout among their supporters after national and state GOP leaders switched this year to a \u201cbank your vote\u201d strategy, rather than focusing on Election Day turnout.",
-      "Entering the final days of the campaign, over 50,000 more GOP registered voters than Democrats had voted early or by absentee ballot, even though there are over 100,000 more registered Democrats than Republicans statewide, according to state elections data. It is unclear whether the Republicans' early vote surge will result in a higher overall turnout for Trump supporters.",
-      "Independent voters now make up the largest group of registered voters in North Carolina. Trump lost ground with independents between 2016 and 2020.",
-      "Harris took the stage in Charlotte after rocker Jon Bon Jovi warmed up the crowd, sticking closely to the speech she's been delivering in her final tour of the battleground states.",
-      "Harris supporter Gwen Garnett, 66, said Trump barnstorming North Carolina is \u201cjust part of the process. It does not worry me at all.\u201d She gave Harris\u2019 candidacy a spiritual dimension.",
-      "\u201cThis is an anointed time for her to be in this role,\u201d Garnett said. \u201cI just believe it\u2019s God\u2019s timing.\u201d",
-      "The state\u2019s voters have shown a propensity to split their ticket over the years. That's why while Republicans have controlled the state legislature since 2011, Democrats have held the governor\u2019s mansion for all but four years since 1993.",
-      "The GOP's hopes to break that hold on Tuesday appeared to dwindle in recent weeks after the party\u2019s nominee for governor, Lt. Gov. Mark Robinson, received unwanted publicity from a CNN report that alleged he made explicit racial and sexual posts on a pornography website\u2019s message board more than a decade ago.",
-      "While Robinson denied writing the messages and sued CNN for defamation last month, his campaign nearly imploded, raising fears that a large victory by Democrat Josh Stein, the state's attorney general, could harm GOP candidates in other races.",
-      "___",
-      "Robertson reported from Raleigh and Charlotte, North Carolina. Associated Press writers Adriana Gomez Licon in Detroit and Jonathan J. Cooper in Phoenix contributed to this report."
-    ]
-  },
-  {
-    "id": 10,
-    "source": "ABC",
-    "category": "US",
     "title": "What to watch over the final weekend of the 2024 presidential campaign",
     "published": "Sat, 02 Nov 2024 17:02:22 -0400",
     "summary": "The 2024 presidential contest speeds into its final weekend with Democrat Kamala Harris and Republican Donald Trump locked in a razor-thin contest",
@@ -300,6 +264,42 @@
     ]
   },
   {
+    "id": 10,
+    "source": "ABC",
+    "category": "US",
+    "title": "Trump will rally backers every day until the election in North Carolina, a swing state he won twice",
+    "published": "Sat, 02 Nov 2024 23:10:27 -0400",
+    "summary": "Donald Trump will rally supporters in North Carolina every day until Tuesday&rsquo;s election",
+    "story": [
+      "Donald Trump will rally supporters in North Carolina every day until Tuesday\u2019s election",
+      "GASTONIA, N.C. -- GASTONIA, N.C. (AP) \u2014 Donald Trump will rally supporters in North Carolina every day until Tuesday's election, a flurry of late activity in the only swing state that he won in both his 2016 and 2020 campaigns.",
+      "Even as Trump looks to expand the electoral map and project strength with trips to New Mexico and Virginia, two Democratic states not widely viewed as competitive, he is putting considerable time into North Carolina, which last backed a Democrat for president in 2008.",
+      "The former president's path to the 270 electoral votes needed to capture the presidency gets significantly more complicated if he loses North Carolina. The fast-growing Southern state gave Trump his smallest margin of victory \u2014 1.3 percentage points \u2014 over Democrat Joe Biden four years ago.",
+      "Trump campaigned in Gastonia, west of Charlotte, and Greensboro on Saturday, with a stop in Salem, Virginia, in between. He will be in the eastern city of Kinston on Sunday and in Raleigh on Monday. Those four rallies will bring his total events in North Carolina since Oct. 1 to nine. His running mate, Ohio Sen. JD Vance, has been in the state six times during the same period, most recently on Friday.",
+      "Vice President Kamala Harris, Trump's Democratic rival, also was in North Carolina on Saturday for a concert and rally in Charlotte. Her campaign has not announced any other travel to the state before Election Day, though she's sending her husband, second gentleman Doug Emhoff, to Greenville on Monday.",
+      "The extensive damage from Hurricane Helene across western North Carolina has created a dose of uncertainty about the state of play here. Flooding destroyed homes and displaced residents in several counties, including the liberal city of Asheville and the conservative rural areas surrounding it.",
+      "Trump's team has said it is confident about his chances in North Carolina. Democrats see Trump's attention on the state as a signal of optimism for Harris.",
+      "\u201cThe repeat appearances may signal Trump\u2019s campaign is in trouble,\u201d said Democratic state Rep. Marcia Morey of Durham. \u201cIf Trump continues with his dangerous, violent rhetoric these last few days, it may backfire. A campaign of personal retribution does not win votes from people.\u201d",
+      "Trump adviser Jason Miller said Trump's late-campaign travels are not a signal of alarm.",
+      "\u201cI'm not worried about anything,\" Miller told reporters Friday. \"We have a smart strategy that's going to get President Trump across 270, maybe even a couple of states that surprise you, that slide in there. But we\u2019re going to follow our strategy. Our strategy comes from our data and our targeting.\u201d",
+      "As he does at most of his events in North Carolina, Trump said in Gastonia that his daughter-in-law, Lara Trump, whom he installed as co-chair of the Republican National Committee, is from the state, and that Lara and Eric Trump named their daughter Carolina.",
+      "\u201cIt\u2019s an amazing place. You\u2019ve been through a lot,\u201d Trump said, alluding to the hurricane before repeating a debunked claim that the Federal Emergency Management Agency prioritized people living in the country illegally over hurricane victims. \u201cYour government has not helped you too much, I can tell you. Your government, FEMA, has let you down because they wanted to spend the money on illegal migrants instead.\u201d",
+      "Later in Greensboro, only about half of the seats were filled in a massive 22,000-seat arena when Trump started speaking after 9 p.m. Trump spoke at another arena that\u2019s part of the same complex just 11 days earlier, though Harris filled the larger venue when she spoke there recently.",
+      "Roughly half of North Carolina's 7.8 million registered voters had already voted as of Friday, buoyed by early in-person voting, which ended on Saturday afternoon.",
+      "North Carolina Republicans have been encouraged by early voter turnout among their supporters after national and state GOP leaders switched this year to a \u201cbank your vote\u201d strategy, rather than focusing on Election Day turnout.",
+      "Entering the final days of the campaign, over 50,000 more GOP registered voters than Democrats had voted early or by absentee ballot, even though there are over 100,000 more registered Democrats than Republicans statewide, according to state elections data. It is unclear whether the Republicans' early vote surge will result in a higher overall turnout for Trump supporters.",
+      "Independent voters now make up the largest group of registered voters in North Carolina. Trump lost ground with independents between 2016 and 2020.",
+      "Harris took the stage in Charlotte after rocker Jon Bon Jovi warmed up the crowd, sticking closely to the speech she's been delivering in her final tour of the battleground states.",
+      "Harris supporter Gwen Garnett, 66, said Trump barnstorming North Carolina is \u201cjust part of the process. It does not worry me at all.\u201d She gave Harris\u2019 candidacy a spiritual dimension.",
+      "\u201cThis is an anointed time for her to be in this role,\u201d Garnett said. \u201cI just believe it\u2019s God\u2019s timing.\u201d",
+      "The state\u2019s voters have shown a propensity to split their ticket over the years. That's why while Republicans have controlled the state legislature since 2011, Democrats have held the governor\u2019s mansion for all but four years since 1993.",
+      "The GOP's hopes to break that hold on Tuesday appeared to dwindle in recent weeks after the party\u2019s nominee for governor, Lt. Gov. Mark Robinson, received unwanted publicity from a CNN report that alleged he made explicit racial and sexual posts on a pornography website\u2019s message board more than a decade ago.",
+      "While Robinson denied writing the messages and sued CNN for defamation last month, his campaign nearly imploded, raising fears that a large victory by Democrat Josh Stein, the state's attorney general, could harm GOP candidates in other races.",
+      "___",
+      "Robertson reported from Raleigh and Charlotte, North Carolina. Associated Press writers Adriana Gomez Licon in Detroit and Jonathan J. Cooper in Phoenix contributed to this report."
+    ]
+  },
+  {
     "id": 11,
     "source": "ABC",
     "category": "US",
@@ -334,6 +334,18 @@
     "id": 13,
     "source": "ABC",
     "category": "US",
+    "title": "TGI Friday's files for Chapter 11 bankruptcy protection",
+    "published": "Sat, 02 Nov 2024 13:10:01 -0400",
+    "summary": "TGI Friday's files for Chapter 11 bankruptcy protection",
+    "story": [
+      "TGI Friday's files for Chapter 11 bankruptcy protection",
+      "DALLAS -- TGI Friday's files for Chapter 11 bankruptcy protection."
+    ]
+  },
+  {
+    "id": 14,
+    "source": "ABC",
+    "category": "US",
     "title": "Warren Buffett is sitting on over $325 billion cash as Berkshire Hathaway keeps selling Apple stock",
     "published": "Sun, 03 Nov 2024 00:14:31 -0400",
     "summary": "Warren Buffett is now sitting on more than $325 billion cash after continuing to unload billions of dollars worth of Apple and Bank of America shares this year and continuing to collect a steady stream of profits from all of Berkshire Hathaway&rsquo;s assort...",
@@ -355,18 +367,6 @@
       "Berkshire did resolve one mystery from the quarter by spelling out how much it paid to acquire the rest of the shares in its utility business from the estate of former Berkshire board member Walter Scott.",
       "Berkshire said it paid $2.4 billion cash, issued $600 million in debt and gave the Scott family Class B Berkshire shares worth a little over $1 billion. So the total compensation was about $4 billion. That means the Scott family didn\u2019t get nearly as good of a price for their 8% stake in the utilities as when Berkshire Vice Chairman Greg Abel sold his 1% stake in the utility business two years ago for $870 million.",
       "Abel is slated to succeed the 94-year-old Buffett as CEO in the event of his death."
-    ]
-  },
-  {
-    "id": 14,
-    "source": "ABC",
-    "category": "US",
-    "title": "TGI Friday's files for Chapter 11 bankruptcy protection",
-    "published": "Sat, 02 Nov 2024 13:10:01 -0400",
-    "summary": "TGI Friday's files for Chapter 11 bankruptcy protection",
-    "story": [
-      "TGI Friday's files for Chapter 11 bankruptcy protection",
-      "DALLAS -- TGI Friday's files for Chapter 11 bankruptcy protection."
     ]
   },
   {
@@ -600,6 +600,18 @@
     "id": 23,
     "source": "ABC",
     "category": "US",
+    "title": "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
+    "published": "Sun, 03 Nov 2024 14:25:53 -0500",
+    "summary": "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
+    "story": [
+      "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
+      "NEW YORK -- Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10."
+    ]
+  },
+  {
+    "id": 24,
+    "source": "ABC",
+    "category": "US",
     "title": "Federal Reserve is set to cut rates again while facing a hazy post-election outlook",
     "published": "Sun, 03 Nov 2024 12:50:21 -0500",
     "summary": "No one knows how Tuesday&rsquo;s presidential election will turn out, but the Federal Reserve&rsquo;s move two days later is much easier to predict: With inflation continuing to cool, the Fed is set to cut interest rates for a second time this year",
@@ -630,18 +642,6 @@
       "Related Topics",
       "Economy",
       "Economy"
-    ]
-  },
-  {
-    "id": 24,
-    "source": "ABC",
-    "category": "US",
-    "title": "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
-    "published": "Sun, 03 Nov 2024 14:25:53 -0500",
-    "summary": "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
-    "story": [
-      "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
-      "NEW YORK -- Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10."
     ]
   },
   {
@@ -820,7 +820,7 @@
     "source": "BBC",
     "category": "World",
     "title": "Russia-friendly candidate ahead in Moldovan vote amid claims of Kremlin meddling",
-    "published": "Sun, 03 Nov 2024 20:49:25 GMT",
+    "published": "Sun, 03 Nov 2024 20:50:09 GMT",
     "summary": "Alexandr Stoianoglo, backed by the pro-Russian Party of Socialists, has promised a closer relationship with Moscow.",
     "story": [
       "The man challenging Moldova's pro-EU leader Maia Sandu for the presidency has taken a narrow lead, according to preliminary results, in a pivotal presidential election run-off seen as a choice between Europe and Russia.",

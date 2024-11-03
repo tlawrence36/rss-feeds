@@ -43,6 +43,7 @@ jobs:
 
   build:
     name: Build site
+    needs: python-script
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo

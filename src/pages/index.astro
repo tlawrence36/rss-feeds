@@ -69,6 +69,8 @@ const formatDate = (dateString:string) => {
 
 	function setCurrentFeed(feed:string): void {
 		window.scrollTo({top: 0, behavior: 'smooth'});
+		const allRows = document.querySelectorAll('div.item');
+		allRows.forEach((el) => el.classList.remove('show'));
 		const rows = document.querySelectorAll(`div[data-feed=${feed}]`);
 		rows.forEach((el) => el.classList.add('show'));
 		const el = document.getElementById("current")!;

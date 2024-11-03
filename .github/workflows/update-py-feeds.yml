@@ -22,6 +22,8 @@ jobs:
         run: python get_feeds.py
       - name: Commit and push changes
         run: |
+          git config user.email "tjlawren@gmail.com"
+          git config user.name "Tim Lawrence"
           git add feed.json
           git commit -m "Automated file creation"
           git push origin main

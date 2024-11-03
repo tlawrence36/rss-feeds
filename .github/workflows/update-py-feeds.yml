@@ -2,6 +2,9 @@ name: Update Python Feeds
 on:
   push:
     branches: [main]
+  # Triggers the workflow every 4 hours
+  schedule:
+    - cron: "15 */4 * * *"
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages

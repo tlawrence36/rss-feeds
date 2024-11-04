@@ -136,6 +136,18 @@
     "id": 7,
     "source": "ABC",
     "category": "US",
+    "title": "Death toll rises to 36 after an overcrowded bus fell into a deep gorge in northern India, official says",
+    "published": "Mon, 04 Nov 2024 05:37:59 -0500",
+    "summary": "Death toll rises to 36 after an overcrowded bus fell into a deep gorge in northern India, official says",
+    "story": [
+      "Death toll rises to 36 after an overcrowded bus fell into a deep gorge in northern India, official says",
+      "LUCKNOW, India -- Death toll rises to 36 after an overcrowded bus fell into a deep gorge in northern India, official says."
+    ]
+  },
+  {
+    "id": 8,
+    "source": "ABC",
+    "category": "US",
     "title": "Trial in 2017 killings of 2 teenage girls in Indiana reaches midway point as prosecution rests",
     "published": "Sun, 03 Nov 2024 00:38:15 -0400",
     "summary": "The trial of a man accused of killing two teenage girls in a small Indiana community has passed its midway point following more than two weeks of testimony about the 2017 killings",
@@ -182,7 +194,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "source": "ABC",
     "category": "US",
     "title": "Massachusetts firefighters continue to battle stubborn brush fires across state",
@@ -208,7 +220,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "source": "ABC",
     "category": "US",
     "title": "Iran\u2019s help has transformed Yemen's Houthi rebels into a potent military force, UN experts say",
@@ -240,19 +252,19 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "source": "ABC",
     "category": "US",
-    "title": "Death toll rises to 36 after an overcrowded bus fell into a deep gorge in northern India, official says",
-    "published": "Mon, 04 Nov 2024 05:37:59 -0500",
-    "summary": "Death toll rises to 36 after an overcrowded bus fell into a deep gorge in northern India, official says",
+    "title": "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
+    "published": "Sun, 03 Nov 2024 14:25:53 -0500",
+    "summary": "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
     "story": [
-      "Death toll rises to 36 after an overcrowded bus fell into a deep gorge in northern India, official says",
-      "LUCKNOW, India -- Death toll rises to 36 after an overcrowded bus fell into a deep gorge in northern India, official says."
+      "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
+      "NEW YORK -- Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10."
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "source": "ABC",
     "category": "US",
     "title": "Federal Reserve is set to cut rates again while facing a hazy post-election outlook",
@@ -288,18 +300,6 @@
     ]
   },
   {
-    "id": 12,
-    "source": "ABC",
-    "category": "US",
-    "title": "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
-    "published": "Sun, 03 Nov 2024 14:25:53 -0500",
-    "summary": "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
-    "story": [
-      "Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10",
-      "NEW YORK -- Oregon, Georgia, Ohio State, Miami and Texas top AP Top 25 ahead of first CFP rankings, unbeaten Indiana into top 10."
-    ]
-  },
-  {
     "id": 13,
     "source": "ABC",
     "category": "US",
@@ -313,24 +313,6 @@
   },
   {
     "id": 14,
-    "source": "ABC",
-    "category": "US",
-    "title": "Police in Michigan say 4 killed, 17 injured after semitruck crashes into vehicles stuck in traffic",
-    "published": "Sun, 03 Nov 2024 15:30:01 -0500",
-    "summary": "Michigan State Police say four people were killed and 17 others injured overnight after a semitruck crashed into more than a dozen vehicles backed up on Interstate 96 in the southeastern part of the state",
-    "story": [
-      "Michigan State Police say four people were killed and 17 others injured overnight after a semitruck crashed into more than a dozen vehicles backed up on Interstate 96 in the southeastern part of the state",
-      "WEBBERVILLE, Mich. -- A section of Interstate 96 in southeast Michigan remained closed Sunday after a semitruck crashed into more than a dozen vehicles overnight, killing 4 people and injuring 17 others, according to state police.",
-      "Traffic on I-96 near Webberville had been temporarily stopped late Saturday as utility crews were completing work on power lines in the area. A semitruck with a trailer was heading westbound around 11:45 p.m. and crashed into the stalled vehicles.",
-      "\u201cIt appears the driver of the semi-truck did not see the backup and could not stop his vehicle in time,\u201d Michigan State Police said in a statement on the social media platform X.",
-      "The impact caused the semitruck and several vehicles to catch fire. Police said more than a dozen vehicles were involved in the crash.",
-      "Police confirmed four deaths and said 17 people, including the driver of the truck, were injured and transported to nearby hospitals.",
-      "Michigan State Police said Sunday that the victims were a 29-year-old man from Carson City who was driving a Ford pickup and three relatives from Lansing who were in a Chevy Trax. They were identified as a 20-year-old female, a 43-year-old female and a 47-year-old male. Police did not say how they were related.",
-      "Authorities continued cleanup efforts Sunday and said I-96 near the site of the accident would \u201cbe closed for an indefinite period.\u201d"
-    ]
-  },
-  {
-    "id": 15,
     "source": "ABC",
     "category": "US",
     "title": "True crime's popularity brings real change for defendants and society. It's not all good",
@@ -367,7 +349,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 15,
     "source": "ABC",
     "category": "US",
     "title": "Moldova\u2019s pro-Western president wins second term in office, in pivotal runoff overshadowed by Russian meddling claims",
@@ -376,6 +358,24 @@
     "story": [
       "Moldova\u2019s pro-Western president wins second term in office, in pivotal runoff overshadowed by Russian meddling claims",
       "CHISINAU, Moldova -- Moldova\u2019s pro-Western president wins second term in office, in pivotal runoff overshadowed by Russian meddling claims."
+    ]
+  },
+  {
+    "id": 16,
+    "source": "ABC",
+    "category": "US",
+    "title": "Police in Michigan say 4 killed, 17 injured after semitruck crashes into vehicles stuck in traffic",
+    "published": "Sun, 03 Nov 2024 15:30:01 -0500",
+    "summary": "Michigan State Police say four people were killed and 17 others injured overnight after a semitruck crashed into more than a dozen vehicles backed up on Interstate 96 in the southeastern part of the state",
+    "story": [
+      "Michigan State Police say four people were killed and 17 others injured overnight after a semitruck crashed into more than a dozen vehicles backed up on Interstate 96 in the southeastern part of the state",
+      "WEBBERVILLE, Mich. -- A section of Interstate 96 in southeast Michigan remained closed Sunday after a semitruck crashed into more than a dozen vehicles overnight, killing 4 people and injuring 17 others, according to state police.",
+      "Traffic on I-96 near Webberville had been temporarily stopped late Saturday as utility crews were completing work on power lines in the area. A semitruck with a trailer was heading westbound around 11:45 p.m. and crashed into the stalled vehicles.",
+      "\u201cIt appears the driver of the semi-truck did not see the backup and could not stop his vehicle in time,\u201d Michigan State Police said in a statement on the social media platform X.",
+      "The impact caused the semitruck and several vehicles to catch fire. Police said more than a dozen vehicles were involved in the crash.",
+      "Police confirmed four deaths and said 17 people, including the driver of the truck, were injured and transported to nearby hospitals.",
+      "Michigan State Police said Sunday that the victims were a 29-year-old man from Carson City who was driving a Ford pickup and three relatives from Lansing who were in a Chevy Trax. They were identified as a 20-year-old female, a 43-year-old female and a 47-year-old male. Police did not say how they were related.",
+      "Authorities continued cleanup efforts Sunday and said I-96 near the site of the accident would \u201cbe closed for an indefinite period.\u201d"
     ]
   },
   {
@@ -424,6 +424,22 @@
     "id": 18,
     "source": "ABC",
     "category": "US",
+    "title": "Winning numbers drawn in Saturday\u2019s Powerball",
+    "published": "Sun, 03 Nov 2024 00:45:59 -0400",
+    "summary": "The winning numbers in Saturday evening&rsquo;s drawing of the &quot;Powerball&quot; game were: 10-45-48-58-61, Powerball: 2",
+    "story": [
+      "The winning numbers in Saturday evening\u2019s drawing of the \"Powerball\" game were: 10-45-48-58-61, Powerball: 2",
+      "The winning numbers in Saturday evening\u2019s drawing of the \"Powerball\" game were:",
+      "10-45-48-58-61, Powerball: 2, Power Play: 3",
+      "(ten, forty-five, forty-eight, fifty-eight, sixty-one, Powerball: two, Power Play: three)",
+      "Estimated jackpot: $55 million",
+      "For more lottery results, go to Jackpot.com | Order Lottery Tickets"
+    ]
+  },
+  {
+    "id": 19,
+    "source": "ABC",
+    "category": "US",
     "title": "Family pleaded to have assault rifle seized before deadly school shooting",
     "published": "Sun, 03 Nov 2024 05:29:51 -0500",
     "summary": "Orlando Harris&rsquo; family pleaded with police to confiscate the 19-year-old&rsquo;s bullet-proof vest, ammunition and AR-15-style rifle",
@@ -462,7 +478,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "source": "ABC",
     "category": "US",
     "title": "An Iranian-American journalist is believed to be held by Iran as tensions remain high after an Israeli attack, US says",
@@ -471,22 +487,6 @@
     "story": [
       "An Iranian-American journalist is believed to be held by Iran as tensions remain high after an Israeli attack, US says",
       "DUBAI, United Arab Emirates -- An Iranian-American journalist is believed to be held by Iran as tensions remain high after an Israeli attack, US says."
-    ]
-  },
-  {
-    "id": 20,
-    "source": "ABC",
-    "category": "US",
-    "title": "Winning numbers drawn in Saturday\u2019s Powerball",
-    "published": "Sun, 03 Nov 2024 00:45:59 -0400",
-    "summary": "The winning numbers in Saturday evening&rsquo;s drawing of the &quot;Powerball&quot; game were: 10-45-48-58-61, Powerball: 2",
-    "story": [
-      "The winning numbers in Saturday evening\u2019s drawing of the \"Powerball\" game were: 10-45-48-58-61, Powerball: 2",
-      "The winning numbers in Saturday evening\u2019s drawing of the \"Powerball\" game were:",
-      "10-45-48-58-61, Powerball: 2, Power Play: 3",
-      "(ten, forty-five, forty-eight, fifty-eight, sixty-one, Powerball: two, Power Play: three)",
-      "Estimated jackpot: $55 million",
-      "For more lottery results, go to Jackpot.com | Order Lottery Tickets"
     ]
   },
   {
@@ -1472,28 +1472,40 @@
     "id": 53,
     "source": "BBC",
     "category": "World",
-    "title": "At least 10 dead after volcano erupts in Indonesia",
-    "published": "Mon, 04 Nov 2024 09:31:22 GMT",
-    "summary": "Officials say several villages have been evacuated after the eruption on Sunday.",
+    "title": "Netanyahu aide leaks may have torpedoed hostage deal, court says",
+    "published": "Mon, 04 Nov 2024 12:25:10 GMT",
+    "summary": "A top Netanyahu aide was among those arrested and investigated over leaked and falsified documents.",
     "story": [
-      "At least 10 people have been killed after a volcano erupted in eastern Indonesia in the early hours of Monday, officials have said.",
-      "Mount Lewotobi Laki-laki, located on Flores Island in East Nusa Tenggara province, erupted at 23:57 local time, according to the Indonesian Center for Volcanology and Geological Disaster Mitigation (PVMG).",
-      "Hadi Wijaya, a PVMG spokesperson, said fiery lava and rocks had hit the villages about 4km (two miles) from the crater, burning and damaging residents' houses.",
-      "According to local officials, the eruption has affected seven villages.",
-      "PVMG said fires had \"occurred in residential areas due to the ejection of incandescent material\" from the volcano.",
-      "It has raised the status of the volcano to the highest alert level, warning that a 7km (four-mile) radius from the crater must be cleared.",
-      "\"We have started evacuating residents since this morning to other villages located around 20km (13 miles) from the crater,\" local official Heronimus Lamawuran told Reuters.",
-      "Video footage shared with BBC News by eyewitnesses shows people covered in volcanic ash, rock showers and homes ablaze, as well as the scorched aftermath of the disruption.",
-      "A spokesperson from Indonesia's disaster agency warned of potential flash floods and cold lava flows in the coming days.",
-      "They added that the local government had declared a state of emergency for the next 58 days, meaning the central government could help provide aid to 10,000 affected residents.",
-      "Mount Lewotobi Laki-laki - one of a pair of prominent volcanic peaks at the eastern end of the island of Flores - has been erupting on and off since last December, and there was already an official warning to stay more than 3km away from it.",
-      "The prolonged volcanic activity there this year has badly affected the local economy.",
-      "Hundreds of people have left their homes and have been sheltering in schools, while cashew nut farmers have complained that their crops have been ruined by the huge quantities of ash which have fallen on the surrounding area.",
-      "Indonesia sits on the Pacific \u201cRing of Fire\u201d, an area of high seismic activity atop multiple tectonic plates, and has about 130 active volcanoes.",
-      "Many communities live dangerously close to the volcanoes in order to cultivate the fertile soil they provide.",
-      "Watch: Volcano in Indonesia spews lava and smoke",
-      "Indonesia volcano death toll rises to 22",
-      "Watch: Indonesia volcano spews ash 3km into sky"
+      "Attempts to secure a peace deal in Gaza and secure the release of hostages held by Hamas may have been compromised by leaked and falsified documents involving a close aide to the prime minister, an Israeli court has said.",
+      "In its partial lifting of a gagging order, the court in the town of Rishon LeZion said Eli Feldstein and three others were under investigation.",
+      "Prime Minister Benjamin Netanyahu has denied wrongdoing by his staff, but opposition figures and hostage families have accused his government of sabotaging negotiations.",
+      "The leaking of the documents \u2013 to Britain\u2019s Jewish Chronicle and Germany\u2019s tabloid Bild - came at a crucial time for hostage negotiations.",
+      "The documents claimed Hamas was planning to smuggle Israeli hostages to Egypt  - intent on scuppering any proposed ceasefire deal.",
+      "Some commentators say the revelations were politically useful for Netanyahu\u2019s hardline position on the talks, which have made almost no progress.",
+      "Over 100 hostages out of 251 taken by Hamas on 7 October 2023 remain unaccounted for.",
+      "After the stories were published in September, the Israel Defense Forces (IDF) launched an inquiry to discover the source of the leaks.",
+      "This eventually led to the arrest of Eli Feldstein, along with the three others, whose identities have not been revealed.",
+      "Mr Feldstein had been working as a government spokesperson and was often seen accompanying the prime minister on visits. He had previously worked for the far-right Minister of National Security, Itamar Ben-Gvir, and before that he served as an IDF spokesperson.",
+      "Following news of his arrest, two leading opposition politicians held a press conference.",
+      "Benny Gantz, who until recently was in Netanyahu\u2019s war cabinet, said that if sensitive security information was used for a \"political survival campaign\u201d, it would not only be a criminal offense, but \"a crime against the nation\".",
+      "Speaking at the same event, the leader of the opposition, Yair Lapid, said that if the prime minister knew about the leaks, \"he is complicit in one of the most serious security offenses\u201d and that if he didn\u2019t know, he is not fit for office.",
+      "The revelations also led to strong criticism from the families of the hostages, who have become increasingly frustrated with the government\u2019s failure to secure the release of their loved ones.",
+      "They said it implied an active campaign to discredit them, calling it \"a moral low that has no depth. This is a fatal injury to the remnants of trust between the government and its citizens\u201d.",
+      "The documents were published in European newspapers, allegedly to circumvent military censorship laws in Israel.",
+      "The Jewish Chronicle (JC) was engulfed in a scandal after it emerged it had published stories based on a single anonymous source. The freelance writer behind the pieces was fired, with the articles eventually being taken down.",
+      "The articles claimed that Yahya Sinwar was surrounded by a ring of around 20 hostages and that plans had been discovered to smuggle both the captives and the Hamas leader into Egypt. Leading Israeli security journalists questioned the veracity of the reports.",
+      "A number of high-profile writers resigned from the paper, accusing it of lacking journalistic standards.",
+      "Jonathan Freedland, Hadley Freeman and David Aaronovitch announced they were quitting their columns over what Freedland described as a \"great disgrace\" at the world\u2019s oldest Jewish newspaper.",
+      "At the time, the JC said it conducted a \"thorough investigation\" into one of its freelance journalists, Elon Perry, \"after allegations were made about aspects of his record\".",
+      "It said it was \"not satisfied\" with some of the claims made by the writer, and therefore had deleted his articles and ended its association with him.",
+      "Elon Perry told BBC News the JC \"made a huge mistake with its statement\". He said he could not reveal his source to JC editors and described a \"witch-hunt against me caused by jealousy\".",
+      "The Bild articles, meanwhile, were based on a different set of intelligence documents. While they were found to be authentic, leading security journalist Ronan Bergman found their significance had been greatly exaggerated.",
+      "It was the publication of this story that triggered the investigation by the IDF and security services, ultimately leading to the arrests.",
+      "Netanyahu has sought to distance himself from the allegations, saying the arrested spokesperson had never had access to classified information.",
+      "Despite that, this is a growing scandal that has further damaged the already frayed relationship between the government and the hostage families.",
+      "Stories of the hostages taken by Hamas from Israel",
+      "Who are the released hostages?",
+      "Netanyahu not doing enough to free Gaza hostages, says Biden"
     ]
   },
   {
@@ -1561,10 +1573,10 @@
     "source": "BBC",
     "category": "World",
     "title": "At least 36 die after bus falls into a gorge in India",
-    "published": "Mon, 04 Nov 2024 09:36:25 GMT",
+    "published": "Mon, 04 Nov 2024 12:29:14 GMT",
     "summary": "Officials said 44 people were on board when the bus went out of control and fell into a ditch.",
     "story": [
-      "At least 36 people have died and several have been injured after a bus fell into a gorge in India\u2019s northern state of Uttarakhand.",
+      "At least 36 people have died and 27 have been injured after a bus fell into a gorge in India\u2019s northern state of Uttarakhand.",
       "Officials said 44 people were on board when the driver lost control and the bus fell into a 50m-deep ditch in Marchula, located in the state\u2019s Almora district.",
       "The state government has ordered an inquiry into the accident.",
       "Buses are the main mode of transport in the Himalayan state and accidents are not uncommon.",
@@ -1583,6 +1595,34 @@
   },
   {
     "id": 57,
+    "source": "BBC",
+    "category": "World",
+    "title": "At least 10 dead after volcano erupts in Indonesia",
+    "published": "Mon, 04 Nov 2024 09:31:22 GMT",
+    "summary": "Officials say several villages have been evacuated after the eruption on Sunday.",
+    "story": [
+      "At least 10 people have been killed after a volcano erupted in eastern Indonesia in the early hours of Monday, officials have said.",
+      "Mount Lewotobi Laki-laki, located on Flores Island in East Nusa Tenggara province, erupted at 23:57 local time, according to the Indonesian Center for Volcanology and Geological Disaster Mitigation (PVMG).",
+      "Hadi Wijaya, a PVMG spokesperson, said fiery lava and rocks had hit the villages about 4km (two miles) from the crater, burning and damaging residents' houses.",
+      "According to local officials, the eruption has affected seven villages.",
+      "PVMG said fires had \"occurred in residential areas due to the ejection of incandescent material\" from the volcano.",
+      "It has raised the status of the volcano to the highest alert level, warning that a 7km (four-mile) radius from the crater must be cleared.",
+      "\"We have started evacuating residents since this morning to other villages located around 20km (13 miles) from the crater,\" local official Heronimus Lamawuran told Reuters.",
+      "Video footage shared with BBC News by eyewitnesses shows people covered in volcanic ash, rock showers and homes ablaze, as well as the scorched aftermath of the disruption.",
+      "A spokesperson from Indonesia's disaster agency warned of potential flash floods and cold lava flows in the coming days.",
+      "They added that the local government had declared a state of emergency for the next 58 days, meaning the central government could help provide aid to 10,000 affected residents.",
+      "Mount Lewotobi Laki-laki - one of a pair of prominent volcanic peaks at the eastern end of the island of Flores - has been erupting on and off since last December, and there was already an official warning to stay more than 3km away from it.",
+      "The prolonged volcanic activity there this year has badly affected the local economy.",
+      "Hundreds of people have left their homes and have been sheltering in schools, while cashew nut farmers have complained that their crops have been ruined by the huge quantities of ash which have fallen on the surrounding area.",
+      "Indonesia sits on the Pacific \u201cRing of Fire\u201d, an area of high seismic activity atop multiple tectonic plates, and has about 130 active volcanoes.",
+      "Many communities live dangerously close to the volcanoes in order to cultivate the fertile soil they provide.",
+      "Watch: Volcano in Indonesia spews lava and smoke",
+      "Indonesia volcano death toll rises to 22",
+      "Watch: Indonesia volcano spews ash 3km into sky"
+    ]
+  },
+  {
+    "id": 58,
     "source": "BBC",
     "category": "World",
     "title": "Pro-EU leader wins Moldova election despite alleged Russian meddling",
@@ -1626,7 +1666,7 @@
     ]
   },
   {
-    "id": 58,
+    "id": 59,
     "source": "BBC",
     "category": "World",
     "title": "Gaza polio vaccinations to resume after WHO reports strike on clinic",
@@ -1666,7 +1706,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 60,
     "source": "BBC",
     "category": "World",
     "title": "Israel says Hezbollah operative captured in naval raid",
@@ -1688,32 +1728,6 @@
       "Seven killed in Israel in deadliest Hezbollah rocket strikes in months",
       "Israel strikes historic Lebanese city of Baalbek after ordering evacuation",
       "US envoys in push for Israel-Hezbollah ceasefire"
-    ]
-  },
-  {
-    "id": 60,
-    "source": "BBC",
-    "category": "World",
-    "title": "Bolivia military post seized and soldiers kidnapped",
-    "published": "Sat, 02 Nov 2024 23:46:39 GMT",
-    "summary": "The move comes after weeks of clashes between security forces and supporters of ex-President Evo Morales.",
-    "story": [
-      "At least 200 soldiers are being held hostage by armed supporters of Bolivia's former president Evo Morales, the foreign ministry has said.",
-      "On Friday, Bolivia's military reported that the armed group had taken control of a military facility near the Bolivian city of Cochabamba.",
-      "In an update Bolivia's foreign ministry said the group had \"seized weapons and ammunition\", adding that three military units were \"assaulted by irregular groups\".",
-      "Images of a row of soldiers with their hands behind their backs, surrounded by members of the armed group, were shown on local television.",
-      "Bolivian government denies attempt to kill Evo MoralesEvo Morales says his car was shot at in assassination attemptStreet battles in Bolivia as Evo Morales leads march to capital",
-      "Bolivian government denies attempt to kill Evo Morales",
-      "Evo Morales says his car was shot at in assassination attempt",
-      "Street battles in Bolivia as Evo Morales leads march to capital",
-      "Cochabamba is in central Bolivia and is home to many supporters of the former president.",
-      "Shortly after the facility was taken over by the group, the military announced the evacuation of personnel and their families, local media reported.",
-      "One of the soldiers being held in the facility said, in a message to his command centre, that the group were demanding that authorities stop interfering with blockades, Bolivian news agency ANF said.",
-      "Morales' supporters have created blockades around the country for 19 days, demanding an end to an investigation into the former president for alleged statutory rape and human trafficking, which he denies.",
-      "On Sunday, Morales shared a video of his car being shot at, in what he called an \"assassination attempt\" against him.",
-      "The Bolivian government rejected Morales' claims that it ordered a targeted attack on him.",
-      "His supporters had clashed with followers of his rival, current President Luis Arce, on several occasions earlier this year. Both men intend to run as candidate for the ruling Mas party in the country's 2025 presidential elections.",
-      "Morales, who was president from 2006 to 2019, was declared the winner of the 2019 election but resigned weeks later after nationwide protests triggered by claims of election fraud."
     ]
   },
   {
@@ -3264,6 +3278,27 @@
     "id": 89,
     "source": "FOX",
     "category": "US",
+    "title": "Donald Trump Jr., Kristi Noem join Franklin Graham in Helene-torn North Carolina with Samaritan's Purse",
+    "published": "Sat, 02 Nov 2024 05:45:50 -0500",
+    "summary": "Donald Trump Jr. and Gov. Kristi Noem joined Franklin Graham of Samaritan&apos;s Purse to donate warm clothing to the people of Helene-torn North Carolina Friday.",
+    "story": [
+      "South Dakota Gov. Kristi Noem and Donald Trump Jr. joined Rev. Franklin Graham of Samaritan's Purse in an airlift operation to donate warm clothing to Hurricane Helene survivors in North Carolina Friday afternoon. (Credit: Samaritan's Purse)",
+      "South Dakota Gov. Kristi Noem and Donald Trump Jr. joined Franklin Graham of Samaritan's Purse Friday to help airlift warm clothing to Hurricane Helene-torn North Carolina as temperatures fell in the region.Samaritan's Purse, a Christian disaster relief and evangelism organization, has served its home state of North Carolina since Hurricane Helene ripped through the southeast in late September.Noem joined Trump and Graham, the president of Samaritan's Purse and son of the late Rev. Billy Graham, in the Bat Cave community near Chimney Rock Friday afternoon.SAMARITAN'S PURSE CONTINUES TO LEAD NORTH CAROLINA RELIEF EFFORTS IN WAKE OF DEVASTATING HURRICANE HELENEWith donations personally delivered from California-based Kirstyn Hairston of KUIU and Dan and Agatha Genter of Genter Capital Management, Samaritan's Purse donated over 1,200 articles of winter clothing to the storm-torn survivors of western North Carolina, including winter jackets, fleece sweaters and pants, according to a release. Bat Cave received a portion of this donation from Hairston and the Genters; three more communities in the state will receive the rest.\"Today was an amazing opportunity to be the hands and feet of Jesus and to be a blessing to people alongside Samaritan\u2019s Purse,\" South Dakota Gov. Kristi Noem said in an exclusive statement to Fox News Digital. \"Today, we saw the devastation of entire communities that have lost homes and all their belongings and even lost lives.\"So, we\u2019re not only here today \u2014 we\u2019re not going to forget about these folks. They will need our help for weeks and years to come. They will still need us to pray for them and lift them up. And they\u2019ll need an organization like Samaritan\u2019s Purse to walk alongside them.\"",
+      "Gov. Kristi Noem joined Samaritan's Purse Friday to help airlift warm clothing to the people of Bat Cave, N.C. (Courtesy of Samaritan's Purse)",
+      "As Election Day draws closer, the people of rural North Carolina and others affected by Hurricane Helene have largely been out of the news cycle.\u00a0High-elevation regions in western North Carolina have been hit especially hard, and freezing temperatures are nearing.\"So, please, don't take your attention off this. There's a lot of work to be done,\" Edward Graham, Franklin Graham's son and Samaritan's Purse COO, said in an October interview with Fox News Digital. \"And if people really want to help, I need volunteers for the long haul.",
+      "\"I need volunteers right now, but I need volunteers showing up in January, December, November, when it's cold over the holiday season, when you're warm with your family over the holiday. Think about those in western North Carolina that aren't.SAMARITAN'S PURSE CONTINUES HELENE RELIEF EFFORTS WITH THREE WATER FILTRATION SYSTEMS IN NORTH CAROLINA\"Orange Shirts,\" or Samaritan's Purse volunteers, have served over 3,000 Hurricane Helene-affected families by removing mud from flooded homes, clearing debris, removing downed trees and tarping damaged roofs.\u00a0Samaritan's Purse has also conducted the nation's largest civilian airlift operation in history to access those in rural North Carolina whose roads have been washed out with donations of emergency supplies and lifesaving aid. According to a release, the Christian relief organization has donated 700,000 pounds of supplies to 80 communities on 357 airlifts. \u00a0\u00a0\"The people who we met today were so grateful South Dakota\u2019s Gov. Kristi Noem, Donald Trump Jr., Dan and Agatha Genter and Kirstyn Hairston came all the way to North Carolina to see them,\" Rev. Franklin Graham said in an exclusive statement shared with Fox News Digital. \"When you have lost everything except for the clothes on your back, the fact that someone cares enough to come help means everything.\"",
+      "Rev. Franklin Graham of Samaritan's Purse spearheaded efforts Friday to airlift donated warm clothing to survivors of Hurricane Helene. (Courtesy of Samaritan's Purse)",
+      "\"This area is 20 miles from where I grew up, and it wasn\u2019t remote, but it is today because it was cut off by Hurricane Helene. Many people are now using four-wheelers to travel, but it has been incredible to see people taking care of each other. It is remarkable how people have stood up to help their neighbors in this time of great need,\" added Graham.In addition to the warm clothing donation from Friday, Samaritan's Purse has donated generators, heaters and fuel to Helene survivors. Rev. Franklin Graham lost heat in the aftermath of Hurricane Helene, according to his son, Edward.Graham offered his thanks to the South Dakota governor and the business leaders who donated warm clothing for Friday's airlift mission carried out onboard a Black Hawk helicopter, according to a release.",
+      "Donald Trump Jr. joined Gov. Noem in the airlift donation operation Friday afternoon. (Courtesy of Samaritan's Purse)",
+      "\"I couldn\u2019t be more grateful to Gov. Kristi Noem for showing up to support the people of North Carolina,\" said Franklin Graham. So many have suffered unimaginable loss and pain, and I want them to know they aren\u2019t forgotten. God loves and cares for them.\"Samaritan\u2019s Purse has provided winter clothing for 15,000 people across North Carolina and Tennessee, as well as generators, heaters, blankets, solar lights, boxes of food and bottled water.",
+      "Disaster Relief Units, tractor-trailers stocked with tools and equipment, have been deployed by Samaritan\u2019s Purse to Asheville, Boone and Burnsville in North Carolina, as well as Perry and Tampa in Florida and Valdosta, Georgia.\u00a0CLICK HERE TO GET THE FOX NEWS APPFOX Weather confirmed 101 Hurricane Helene-related deaths in North Carolina as of Oct. 30, bringing the overall total to 229 across seven states.",
+      "Jasmine is a writer at Fox News Digital and a military spouse based in New Orleans. Stories can be sent to jasmine.baehr@fox.com"
+    ]
+  },
+  {
+    "id": 90,
+    "source": "FOX",
+    "category": "US",
     "title": "Retired officer says US 'a different country' from 5 years ago after spree of violent attacks on women",
     "published": "Sat, 02 Nov 2024 04:00:20 -0500",
     "summary": "Five women have been attacked by complete strangers over three months in Nashville. A retired MNPD officer says part of the issue is &apos;recidivism of these criminals.&apos;",
@@ -3307,7 +3342,7 @@
     ]
   },
   {
-    "id": 90,
+    "id": 91,
     "source": "FOX",
     "category": "US",
     "title": "WATCH: Acrobatic Texas fugitive front-flips over fence before epic take down",
@@ -3336,7 +3371,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 92,
     "source": "FOX",
     "category": "US",
     "title": "South Carolina executes Richard Moore despite broadly supported plea to cut sentence to life",
@@ -3380,7 +3415,7 @@
     ]
   },
   {
-    "id": 92,
+    "id": 93,
     "source": "FOX",
     "category": "US",
     "title": "Mica Miller case: FBI conducts search of South Carolina pastor husband's home",
@@ -3417,7 +3452,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": 94,
     "source": "FOX",
     "category": "US",
     "title": "Diddy investigators raise \u2018serious concerns\u2019 for victims\u2019 safety in courtroom showdown",
@@ -3468,7 +3503,7 @@
     ]
   },
   {
-    "id": 94,
+    "id": 95,
     "source": "FOX",
     "category": "US",
     "title": "Trump assassination attempt: Secret Service failures may warrant discipline, agency report says",
@@ -3506,7 +3541,7 @@
     ]
   },
   {
-    "id": 95,
+    "id": 96,
     "source": "FOX",
     "category": "US",
     "title": "Fox News True Crime Newsletter: Menendez brothers' next steps, killer mom Susan Smith's ex discusses parole",
@@ -3537,7 +3572,7 @@
     ]
   },
   {
-    "id": 96,
+    "id": 97,
     "source": "FOX",
     "category": "US",
     "title": "Daniel Penny trial: Marine veteran's defense says Jordan Neely's four words justified deadly subway chokehold",
@@ -3599,7 +3634,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": 98,
     "source": "FOX",
     "category": "US",
     "title": "Two dead after Orlando shooting, police chief says; at least 8 shot",
@@ -3631,7 +3666,7 @@
     ]
   },
   {
-    "id": 98,
+    "id": 99,
     "source": "FOX",
     "category": "US",
     "title": "'Fat Leonard' faces sentencing in Navy bribery scandal",
@@ -3666,7 +3701,7 @@
     ]
   },
   {
-    "id": 99,
+    "id": 100,
     "source": "FOX",
     "category": "US",
     "title": "Cop who survived serial killer as a teen is now on track to become a detective",
@@ -3711,7 +3746,7 @@
     ]
   },
   {
-    "id": 100,
+    "id": 101,
     "source": "HuffPost",
     "category": "US News",
     "title": "Obama Puts Trump's Laundry List Of 'Demeaning And Degrading' Comments On Blast",
@@ -3741,7 +3776,7 @@
     ]
   },
   {
-    "id": 101,
+    "id": 102,
     "source": "HuffPost",
     "category": "US News",
     "title": "'Atrocious': Donald Trump Fiercely Condemned For Latest Violent Language",
@@ -3773,7 +3808,7 @@
     ]
   },
   {
-    "id": 102,
+    "id": 103,
     "source": "HuffPost",
     "category": "US News",
     "title": "Dem Senator Pleads For Appropriate Takes On Trump's 'Thermonuclear Meltdown'",
@@ -3800,7 +3835,7 @@
     ]
   },
   {
-    "id": 103,
+    "id": 104,
     "source": "HuffPost",
     "category": "US News",
     "title": "NBC Gives Trump 2 Minutes Of Free Air Time After Harris' Surprise SNL Appearance",
@@ -3820,7 +3855,7 @@
     ]
   },
   {
-    "id": 104,
+    "id": 105,
     "source": "HuffPost",
     "category": "US News",
     "title": "Anti-Abortion Megachurch Pastor Rips 'Adulterous, Childish' Trump And Backs Harris",
@@ -3849,7 +3884,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 106,
     "source": "HuffPost",
     "category": "US News",
     "title": "Ex-Prosecutor Flags Potential Donald Trump Election Night Move That'd 'Be Illegal'",
@@ -3876,7 +3911,7 @@
     ]
   },
   {
-    "id": 106,
+    "id": 107,
     "source": "HuffPost",
     "category": "US News",
     "title": "JD Vance\u2019s Promise About Donald Trump 'Never' Doing 1 Thing Has Critics Calling Utter B.S.",
@@ -3913,7 +3948,7 @@
     ]
   },
   {
-    "id": 107,
+    "id": 108,
     "source": "HuffPost",
     "category": "US News",
     "title": "'He Can't Last': Nancy Pelosi Has Dire Prediction For Trump's 'Deteriorating' Brain",
@@ -3939,7 +3974,7 @@
     ]
   },
   {
-    "id": 108,
+    "id": 109,
     "source": "HuffPost",
     "category": "US News",
     "title": "Civil Rights Activist Scorches Trump's 'Despicable Ass' In Fiery Takedown",
@@ -3970,7 +4005,7 @@
     ]
   },
   {
-    "id": 109,
+    "id": 110,
     "source": "HuffPost",
     "category": "US News",
     "title": "OOPS! Herschel Walker Tells Donald Trump Campaign Rally To Vote For Wrong Person",
@@ -4003,7 +4038,7 @@
     ]
   },
   {
-    "id": 110,
+    "id": 111,
     "source": "HuffPost",
     "category": "US News",
     "title": "Quincy Jones, Music Icon Who Worked With Frank Sinatra And Michael Jackson, Dead At 91",
@@ -4050,7 +4085,7 @@
     ]
   },
   {
-    "id": 111,
+    "id": 112,
     "source": "HuffPost",
     "category": "US News",
     "title": "New York Times Delivers Damning, 1-Paragraph Takedown On Donald Trump's Possible Return",
@@ -4079,7 +4114,7 @@
     ]
   },
   {
-    "id": 112,
+    "id": 113,
     "source": "HuffPost",
     "category": "US News",
     "title": "Pete Buttigieg Hits Fox News Host's 'Fascist' Trump Question With Blistering Fact Check",
@@ -4112,7 +4147,7 @@
     ]
   },
   {
-    "id": 113,
+    "id": 114,
     "source": "HuffPost",
     "category": "US News",
     "title": "Michael Moore Gets Blunt As He Reveals Who Will 'Absolutely' Win The Election",
@@ -4137,7 +4172,7 @@
     ]
   },
   {
-    "id": 114,
+    "id": 115,
     "source": "HuffPost",
     "category": "US News",
     "title": "City Council Hopeful Harvey Epstein Responds To 'SNL' Skit About Him",
@@ -4158,7 +4193,7 @@
     ]
   },
   {
-    "id": 115,
+    "id": 116,
     "source": "HuffPost",
     "category": "US News",
     "title": "NBA Opens Investigation After Joel Embiid Confronts, Shoves Philadelphia Columnist",
@@ -4194,7 +4229,7 @@
     ]
   },
   {
-    "id": 116,
+    "id": 117,
     "source": "HuffPost",
     "category": "US News",
     "title": "'Weekend Update': Michael Che Spots X-Rated Reason Trump Wants To Be President Again",
@@ -4222,7 +4257,7 @@
     ]
   },
   {
-    "id": 117,
+    "id": 118,
     "source": "HuffPost",
     "category": "US News",
     "title": "Tim Kaine Crashes 'SNL' To Stump Game Show Contestant With Simple 2016 Election Question",
@@ -4254,7 +4289,7 @@
     ]
   },
   {
-    "id": 118,
+    "id": 119,
     "source": "HuffPost",
     "category": "US News",
     "title": "Kamala Harris Jokes About The 1 Thing Trump Can't Do In Surprise 'SNL' Cameo",
@@ -4277,7 +4312,7 @@
     ]
   },
   {
-    "id": 119,
+    "id": 120,
     "source": "HuffPost",
     "category": "US News",
     "title": "Bondsman Accused Of Bailing Women Out Of Jail In Exchange For Sex",
@@ -4307,7 +4342,7 @@
     ]
   },
   {
-    "id": 120,
+    "id": 121,
     "source": "HuffPost",
     "category": "US News",
     "title": "Harris Slams House Speaker Mike Johnson For Vowing To Repeal Obamacare And CHIPS Act Under Trump",
@@ -4337,7 +4372,7 @@
     ]
   },
   {
-    "id": 121,
+    "id": 122,
     "source": "HuffPost",
     "category": "US News",
     "title": "James Carville Slams Media For 'Fair' Takes Of Trump's Gun-Filled Fantasy About Liz Cheney",
@@ -4369,7 +4404,7 @@
     ]
   },
   {
-    "id": 122,
+    "id": 123,
     "source": "HuffPost",
     "category": "US News",
     "title": "Bill Maher Defends Trump's Comment About Liz Cheney: 'Exactly What Hippies Always Said'",
@@ -4402,7 +4437,7 @@
     ]
   },
   {
-    "id": 123,
+    "id": 124,
     "source": "HuffPost",
     "category": "US News",
     "title": "Federal Union Blasts Montana GOP Senate Hopeful For 'Disdain' Of Wildland Firefighters",
@@ -4438,7 +4473,7 @@
     ]
   },
   {
-    "id": 124,
+    "id": 125,
     "source": "HuffPost",
     "category": "US News",
     "title": "TGI Fridays Files For Chapter 11 Bankruptcy Protection",
@@ -4465,7 +4500,7 @@
     ]
   },
   {
-    "id": 125,
+    "id": 126,
     "source": "HuffPost",
     "category": "US News",
     "title": "Instagram-Famous Squirrel Euthanized By State After Home Raid",
@@ -4485,7 +4520,7 @@
     ]
   },
   {
-    "id": 126,
+    "id": 127,
     "source": "HuffPost",
     "category": "US News",
     "title": "Puerto Rico Might Elect Its First Pro-Independence Governor",
@@ -4578,7 +4613,7 @@
     ]
   },
   {
-    "id": 127,
+    "id": 128,
     "source": "HuffPost",
     "category": "US News",
     "title": "'I'm Done!': Conservative Columnist Quits Washington Post After Livestream Meltdown",
@@ -4613,7 +4648,7 @@
     ]
   },
   {
-    "id": 128,
+    "id": 129,
     "source": "HuffPost",
     "category": "US News",
     "title": "'I Don't Want It!': Cardi B Scorches Trump's 'Like It Or Not' Pledge At Harris Rally",
@@ -4644,7 +4679,7 @@
     ]
   },
   {
-    "id": 129,
+    "id": 130,
     "source": "HuffPost",
     "category": "US News",
     "title": "Jasmine Crockett Hits Ted Cruz With Brutal Reality Check On Texas Abortion Bans",
@@ -4676,7 +4711,7 @@
     ]
   },
   {
-    "id": 130,
+    "id": 131,
     "source": "HuffPost",
     "category": "US News",
     "title": "Trump Fumes Over Mic Issue At Rally: Want Me To 'Knock The Hell Out Of People Backstage'?",
@@ -4707,7 +4742,7 @@
     ]
   },
   {
-    "id": 131,
+    "id": 132,
     "source": "HuffPost",
     "category": "US News",
     "title": "Jury Convicts Former Kentucky Officer Of Using Excessive Force On Breonna Taylor During Deadly Raid",
@@ -4750,7 +4785,7 @@
     ]
   },
   {
-    "id": 132,
+    "id": 133,
     "source": "HuffPost",
     "category": "US News",
     "title": "Man Accused Of Punching And Bloodying A Sleeping Passenger On U.S. Flight",
@@ -4771,7 +4806,7 @@
     ]
   },
   {
-    "id": 133,
+    "id": 134,
     "source": "HuffPost",
     "category": "US News",
     "title": "Man Welcomed His Alleged Killer To Campsite With A Beer Before Brutal Attack: Sheriff",
@@ -4801,7 +4836,7 @@
     ]
   },
   {
-    "id": 134,
+    "id": 135,
     "source": "HuffPost",
     "category": "US News",
     "title": "Biden Says 'Not A Single, Solitary Republican' Helped Him And Harris Save Workers' Pensions",
@@ -4828,7 +4863,7 @@
     ]
   },
   {
-    "id": 135,
+    "id": 136,
     "source": "HuffPost",
     "category": "US News",
     "title": "No, Being A Dallas Cowboy Doesn't Exempt You From Jury Duty",
@@ -4866,7 +4901,7 @@
     ]
   },
   {
-    "id": 136,
+    "id": 137,
     "source": "HuffPost",
     "category": "US News",
     "title": "Man Charged With Kidnapping Years After 8-Year-Old Daughter, Mother Reported Missing",
@@ -4889,7 +4924,7 @@
     ]
   },
   {
-    "id": 137,
+    "id": 138,
     "source": "HuffPost",
     "category": "US News",
     "title": "Liz Cheney Says Trump's Gun-Filled Threat Is 'How Dictators Destroy Free Nations'",
@@ -4923,7 +4958,7 @@
     ]
   },
   {
-    "id": 138,
+    "id": 139,
     "source": "HuffPost",
     "category": "US News",
     "title": "Stormy Daniels Awarded In Salem For Enduring Actual 'Witch Hunt'",
@@ -4953,7 +4988,7 @@
     ]
   },
   {
-    "id": 139,
+    "id": 140,
     "source": "HuffPost",
     "category": "US News",
     "title": "'Daily Show' Exposes Fox News' Double Standards After Trump's Wobbly Moment",
@@ -4980,7 +5015,7 @@
     ]
   },
   {
-    "id": 140,
+    "id": 141,
     "source": "HuffPost",
     "category": "US News",
     "title": "Lawsuit Against Elon Musk's $1 Million Voter Giveaway Heads Back To State Court",
@@ -5017,7 +5052,7 @@
     ]
   },
   {
-    "id": 141,
+    "id": 142,
     "source": "HuffPost",
     "category": "US News",
     "title": "Mark Cuban Apologizes After Remarks Taken As Insult To Pro-Trump Women",
@@ -5048,7 +5083,7 @@
     ]
   },
   {
-    "id": 142,
+    "id": 143,
     "source": "HuffPost",
     "category": "US News",
     "title": "'Most Thin-Skinned Man': Trump Still Can't Get Over This Kamala Harris Debate Dig",
@@ -5086,7 +5121,7 @@
     ]
   },
   {
-    "id": 143,
+    "id": 144,
     "source": "HuffPost",
     "category": "US News",
     "title": "Bolivian Artist Carves Faces On Bread For Day Of The Dead",
@@ -5111,7 +5146,7 @@
     ]
   },
   {
-    "id": 144,
+    "id": 145,
     "source": "HuffPost",
     "category": "US News",
     "title": "A Pregnant Teenager Died After Trying to Get Care in Three Visits to Texas Emergency Rooms",
@@ -5210,7 +5245,7 @@
     ]
   },
   {
-    "id": 145,
+    "id": 146,
     "source": "HuffPost",
     "category": "US News",
     "title": "Oregon Bat, 'Hoary Potter' Wins  Bizarre Beauty Contest",
@@ -5237,7 +5272,7 @@
     ]
   },
   {
-    "id": 146,
+    "id": 147,
     "source": "HuffPost",
     "category": "US News",
     "title": "Pets Join Mexico's Day Of The Dead Celebrations",
@@ -5278,7 +5313,7 @@
     ]
   },
   {
-    "id": 147,
+    "id": 148,
     "source": "HuffPost",
     "category": "US News",
     "title": "Instagram-Famous Squirrel Named Peanut Seized By New York State Authorities",
@@ -5317,7 +5352,7 @@
     ]
   },
   {
-    "id": 148,
+    "id": 149,
     "source": "HuffPost",
     "category": "US News",
     "title": "'We Did Not Enhance That': Jimmy Fallon Taken Aback By New Pic Of Trump",
@@ -5341,7 +5376,7 @@
     ]
   },
   {
-    "id": 149,
+    "id": 150,
     "source": "NBC",
     "category": "News",
     "title": "Big issues, surprise races and ticket-splitting: 5 things to watch in the battle for Congress",
@@ -5389,7 +5424,7 @@
     ]
   },
   {
-    "id": 150,
+    "id": 151,
     "source": "NBC",
     "category": "News",
     "title": "Trump doesn't rule out banning vaccines if he wins",
@@ -5412,7 +5447,7 @@
     ]
   },
   {
-    "id": 151,
+    "id": 152,
     "source": "NBC",
     "category": "News",
     "title": "'The fear is gone': Democrats think they can make inroads in rural Pennsylvania",
@@ -5467,7 +5502,7 @@
     ]
   },
   {
-    "id": 152,
+    "id": 153,
     "source": "NBC",
     "category": "News",
     "title": "Trump's loose-cannon rallies clash with Harris' cautious endgame",
@@ -5500,7 +5535,7 @@
     ]
   },
   {
-    "id": 153,
+    "id": 154,
     "source": "NBC",
     "category": "News",
     "title": "What we've learned from the consistent poll numbers shaping the 2024 election",
@@ -5537,7 +5572,7 @@
     ]
   },
   {
-    "id": 154,
+    "id": 155,
     "source": "NBC",
     "category": "News",
     "title": "How small shifts in who turns out to vote could make the difference in the election",
@@ -5558,7 +5593,7 @@
     ]
   },
   {
-    "id": 155,
+    "id": 156,
     "source": "NBC",
     "category": "News",
     "title": "Why Pennsylvania\u2019s unusual voting laws make it ripe for rigged election claims",
@@ -5588,7 +5623,7 @@
     ]
   },
   {
-    "id": 156,
+    "id": 157,
     "source": "NBC",
     "category": "News",
     "title": "What are red and blue 'mirages,' and how election night vote counts make it hard to tell who will win",
@@ -5636,7 +5671,7 @@
     ]
   },
   {
-    "id": 157,
+    "id": 158,
     "source": "NBC",
     "category": "News",
     "title": "How Trump's challenges to the 2020 election unfolded in the courtroom",
@@ -5662,7 +5697,7 @@
     ]
   },
   {
-    "id": 158,
+    "id": 159,
     "source": "NBC",
     "category": "News",
     "title": "How each of the 7 key swing states would handle a 2024 recount",
@@ -5696,7 +5731,7 @@
     ]
   },
   {
-    "id": 159,
+    "id": 160,
     "source": "NBC",
     "category": "News",
     "title": "What will happen to Trump's legal issues after the election?",
@@ -5757,7 +5792,7 @@
     ]
   },
   {
-    "id": 160,
+    "id": 161,
     "source": "NBC",
     "category": "News",
     "title": "How votes get counted and reported on election night \u2014 and how NBC News gathers and checks the data",
@@ -5800,7 +5835,7 @@
     ]
   },
   {
-    "id": 161,
+    "id": 162,
     "source": "NBC",
     "category": "News",
     "title": "Inside NBC News' Decision Desk: When will we know who won the presidential race?",
@@ -5840,7 +5875,7 @@
     ]
   },
   {
-    "id": 162,
+    "id": 163,
     "source": "NBC",
     "category": "News",
     "title": "How exit polls work and how NBC News uses them on election night",
@@ -5879,7 +5914,7 @@
     ]
   },
   {
-    "id": 163,
+    "id": 164,
     "source": "NBC",
     "category": "News",
     "title": "A (sort-of) illustrated guide to the voting systems of three crucial swing states",
@@ -5903,7 +5938,7 @@
     ]
   },
   {
-    "id": 164,
+    "id": 165,
     "source": "NBC",
     "category": "News",
     "title": "How the ballot-counting rules differ across the key battleground states",
@@ -5941,7 +5976,7 @@
     ]
   },
   {
-    "id": 165,
+    "id": 166,
     "source": "NBC",
     "category": "News",
     "title": "9 congressional sleeper races to watch on Election Night",
@@ -5987,7 +6022,7 @@
     ]
   },
   {
-    "id": 166,
+    "id": 167,
     "source": "NBC",
     "category": "News",
     "title": "Voters will decide on nearly 150 ballot measures. Here are the ones to watch.",
@@ -6035,7 +6070,7 @@
     ]
   },
   {
-    "id": 167,
+    "id": 168,
     "source": "NBC",
     "category": "News",
     "title": "Quincy Jones, musical maestro and entertainment industry titan, dies at 91",
@@ -6051,7 +6086,7 @@
     ]
   },
   {
-    "id": 168,
+    "id": 169,
     "source": "NBC",
     "category": "News",
     "title": "Netanyahu under fire after judge lifts gag order on leaks that may have harmed hostage talks",
@@ -6079,7 +6114,7 @@
     ]
   },
   {
-    "id": 169,
+    "id": 170,
     "source": "NBC",
     "category": "News",
     "title": "'Sunday Night Football': Vikings defeat Colts 21-13",
@@ -6095,7 +6130,7 @@
     ]
   },
   {
-    "id": 170,
+    "id": 171,
     "source": "NBC",
     "category": "News",
     "title": "Caribbean disturbance likely to become hurricane before it moves into Gulf",
@@ -6133,7 +6168,7 @@
     ]
   },
   {
-    "id": 171,
+    "id": 172,
     "source": "NBC",
     "category": "News",
     "title": "Woman convicted in Florida killer-clown cold case released from prison",

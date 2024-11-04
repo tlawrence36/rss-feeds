@@ -7,12 +7,10 @@ import articles from '../../feed.json';
 const uniqueItems = articles.filter((item, index, array) => {
 	return array.findIndex(p => p.title === item.title) === index;
 });
-// LEFT OFF: figure out how to convert time so I can sort by it (vs published)
 const sortedFeedItems = uniqueItems.sort((a, b) => {
 	const timeA = new Date(a.published);
 	const timeB = new Date(b.published);
 	return 	timeB.getTime() - timeA.getTime();
-	// (b.published ?? new Date()).getTime() - (a.published ?? new Date()).getTime())
 });
 
 const uniqueFeedNames = [...new Set(articles.map(obj => obj.source))];

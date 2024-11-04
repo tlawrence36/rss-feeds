@@ -1,8 +1,8 @@
-name: Update Python Feeds
+name: Update RSS Feeds
 on:
   push:
     branches: [main]
-  # Triggers the workflow every 4 hours
+  # Triggers the workflow every 4 hours (15 mins past)
   schedule:
     - cron: "15 */4 * * *"
   workflow_dispatch:
@@ -40,34 +40,8 @@ jobs:
         run: |
           git config user.email "tjlawren@gmail.com"
           git config user.name "tlawrence36"
+          # git config --global user.name "GitHub Actions"
+          # git config --global user.email "no-reply@github.com"
           git add .
-          git commit -m "Automated file creation"
+          git commit -m "Update JSON feeds (automated)"
           git push origin main
-
-  build:
-    name: Build site
-    needs: python-script
-    runs-on: ubuntu-latest
-    steps:
-      - name: Sleep for 1 minute
-        run: sleep 1m
-      - name: Checkout repo
-        uses: actions/checkout@v4
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3
-        # with:
-          # path: . # The root location of your Astro project inside the repository. (optional)
-          # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
-          # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
-
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

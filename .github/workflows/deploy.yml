@@ -1,8 +1,11 @@
-name: Deploy Astro RSS site to Pages
+name: Build and deploy RSS site
 
 on:
   push:
     branches: [main]
+  # Triggers the workflow every 4 hours (20 mins past)
+  schedule:
+    - cron: "20 */4 * * *"
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
@@ -20,7 +23,7 @@ concurrency:
 
 jobs:
   build:
-    name: Build
+    name: Build site
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo

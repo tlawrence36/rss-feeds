@@ -66,8 +66,8 @@ const formatDate = (dateString:string) => {
 	const articleLinks = document.querySelectorAll('.link');
 	articleLinks.forEach((e) => {
 		const id = e.getAttribute('data-id') || '';
-		e.addEventListener('click', () => displayArticle(id))
-	})
+		e.addEventListener('click', () => displayArticle(id));
+	});
 
 	// side menu - listener
 	const elArray = document.querySelectorAll('li');
@@ -88,6 +88,7 @@ const formatDate = (dateString:string) => {
 	}
 
 	const displayArticle = (id:string) => {
+		document.querySelector(`[data-id="${id}"]`)?.classList.add('visited');
 		const dialog = document.querySelector("dialog")!;
 		const closeButton = document.querySelector("dialog button")!;
 		closeButton.addEventListener("click", () => {
@@ -155,6 +156,10 @@ const formatDate = (dateString:string) => {
 	.link:hover {
 		text-decoration: none;
 		color: #000;
+	}
+	
+	.link.visited {
+		color:#FFA500;
 	}
 	.icon {
 		width: 32px;

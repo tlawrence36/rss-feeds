@@ -1,7 +1,35 @@
-ABC,US,https://abcnews.go.com/abcnews/usheadlines
+ABC,Entertainment,https://abcnews.go.com/abcnews/entertainmentheadlines
+ABC,Health,https://abcnews.go.com/abcnews/healthheadlines
+ABC,International,https://abcnews.go.com/abcnews/internationalheadlines
 ABC,Money,https://abcnews.go.com/abcnews/moneyheadlines
+ABC,Sports,https://abcnews.go.com/abcnews/sportsheadlines
+ABC,Tech,https://abcnews.go.com/abcnews/technologyheadlines
+ABC,Top Stories,https://abcnews.go.com/abcnews/topstories
+ABC,Travel,https://abcnews.go.com/abcnews/travelheadlines
+ABC,US,https://abcnews.go.com/abcnews/usheadlines
+BBC,Business,http://feeds.bbci.co.uk/news/business/rss.xml
+BBC,Education,http://feeds.bbci.co.uk/news/education/rss.xml
+BBC,Entertainment,http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml
+BBC,Health,http://feeds.bbci.co.uk/news/health/rss.xml
+BBC,Politics,http://feeds.bbci.co.uk/news/politics/rss.xml
+BBC,Science,http://feeds.bbci.co.uk/news/science_and_environment/rss.xml
+BBC,Tech,http://feeds.bbci.co.uk/news/technology/rss.xml
 BBC,World,http://feeds.bbci.co.uk/news/world/rss.xml
+CBS,Entertainment,https://www.cbsnews.com/latest/rss/entertainment
+CBS,Health,https://www.cbsnews.com/latest/rss/health
+CBS,Money,https://www.cbsnews.com/latest/rss/moneywatch
+CBS,Politics,https://www.cbsnews.com/latest/rss/politics
+CBS,Science,https://www.cbsnews.com/latest/rss/science
+CBS,Space,https://www.cbsnews.com/latest/rss/space
+CBS,Tech,https://www.cbsnews.com/latest/rss/technology
 CBS,US,https://www.cbsnews.com/latest/rss/us
+CBS,World,https://www.cbsnews.com/latest/rss/world
+FOX,Entertainment,https://moxie.foxnews.com/google-publisher/entertainment.xml
+FOX,Health,https://moxie.foxnews.com/google-publisher/health.xml
+FOX,Politics,https://moxie.foxnews.com/google-publisher/politics.xml
+FOX,Tech,https://feeds.foxnews.com/foxnews/tech
 FOX,US,https://moxie.foxnews.com/google-publisher/us.xml
-HuffPost,US News,https://chaski.huffpost.com/us/auto/vertical/us-news
+FOX,World,https://moxie.foxnews.com/google-publisher/world.xml
 NBC,News,https://feeds.nbcnews.com/nbcnews/public/news
+NBC,Pop Culture,https://feeds.nbcnews.com/today/public/popculture
+NBC,World,https://feeds.nbcnews.com/nbcnews/public/world

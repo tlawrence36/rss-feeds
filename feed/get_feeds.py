@@ -63,28 +63,29 @@ def scrape_articles():
         if filter_period(7, article['published']):
             if article['link'].find('video') == -1:
                 # print(article['link'])
-                response = requests.get(article['link'])#
-                soup = BeautifulSoup(response.content, 'html.parser')
-                container = get_container(soup, article['source'])
+                response = requests.get(article['link'])
+                if response:
+                    soup = BeautifulSoup(response.content, 'html.parser')
+                    container = get_container(soup, article['source'])
 
-                if container is not None:
-                    item = {
-                        "id": article_id,
-                        "source": article['source'],
-                        "category": article['category'],
-                        "title": article['title'],
-                        "published": article['published'],
-                        "summary": article['summary'],
-                    }
+                    if container is not None:
+                        item = {
+                            "id": article_id,
+                            "source": article['source'],
+                            "category": article['category'],
+                            "title": article['title'],
+                            "published": article['published'],
+                            "summary": article['summary'],
+                        }
 
-                    lines = container.find_all(["p", "h2", "ul", "li"])
-                    story = []
-                    for line in lines:
-                        if line.text != '':
-                            story.append(line.text.strip())
-                    item['story'] = story
-                    content.append(item)
-                    article_id += 1
+                        lines = container.find_all(["p", "h2", "ul", "li"])
+                        story = []
+                        for line in lines:
+                            if line.text != '':
+                                story.append(line.text.strip())
+                        item['story'] = story
+                        content.append(item)
+                        article_id += 1
 
     # print(content)
     json_content = json.dumps(content, indent=2)

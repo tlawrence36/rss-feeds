@@ -288,6 +288,7 @@ const formatDate = (dateString:string) => {
 
 	#storyWrapper {
 		overflow-y: auto;
+		border-bottom: 2px solid #999;
 	}
 
 /* paper background */
@@ -306,33 +307,33 @@ const formatDate = (dateString:string) => {
 		padding: calc(var(--top-space) - 2.75lh) 3rem 1rem 5.5rem;
 		line-height: 1.624;
 		color: var(--ink-color);
-		background-image:
-		/* the red line */
-		linear-gradient(
-		90deg,
-		transparent,
-		transparent 4rem,
-		var(--side-line-color) 4rem,
-		var(--side-line-color) 4.25rem,
-		transparent 4.25rem
-		),
-		/*  The top space  */
-		linear-gradient(
-			var(--paper-color),
-			var(--paper-color) var(--top-space),
-			transparent var(--top-space)
-		),
-		/* the blue lines */
-		repeating-linear-gradient(
-			transparent,
-			transparent calc(1lh - var(--line-thickness)),
-			var(--main-line-color) calc(1lh - var(--line-thickness)),
-			var(--main-line-color) 1lh,
-			transparent 1lh
-		);
-		border-radius: 5px;
+		// background-image:
+		// /* the red line */
+		// linear-gradient(
+		// 90deg,
+		// transparent,
+		// transparent 4rem,
+		// var(--side-line-color) 4rem,
+		// var(--side-line-color) 4.25rem,
+		// transparent 4.25rem
+		// ),
+		// /*  The top space  */
+		// linear-gradient(
+		// 	var(--paper-color),
+		// 	var(--paper-color) var(--top-space),
+		// 	transparent var(--top-space)
+		// ),
+		// /* the blue lines */
+		// repeating-linear-gradient(
+		// 	transparent,
+		// 	transparent calc(1lh - var(--line-thickness)),
+		// 	var(--main-line-color) calc(1lh - var(--line-thickness)),
+		// 	var(--main-line-color) 1lh,
+		// 	transparent 1lh
+		// );
+		border-radius: 15px;
 		min-height: 80%;
-		box-shadow: inset 0px 0px 15px 3px #999;
+		// box-shadow: inset 0px 0px 15px 3px #999;
 	}
 
 	@media only screen and (max-width: 640px) {

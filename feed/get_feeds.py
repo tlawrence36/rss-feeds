@@ -19,7 +19,7 @@ def filter_period(period, date_str):
 def fetch_feeds_list(): # use filename param?
     print('get list of feeds to use')
     # get list of names to use
-    with open("feed/feeds.txt") as feeds_file:
+    with open("feeds.txt") as feeds_file:
         feeds = feeds_file.readlines()
         for feed in feeds:
             feed_info = feed.replace('\n', '').split(',')
@@ -63,7 +63,10 @@ def scrape_articles():
         if filter_period(7, article['published']):
             if article['link'].find('video') == -1:
                 # print(article['link'])
-                response = requests.get(article['link'])
+                try:
+                    response = requests.get(article['link'])
+                except requests.exceptions.ConnectionError:
+                    continue
                 if response:
                     soup = BeautifulSoup(response.content, 'html.parser')
                     container = get_container(soup, article['source'])

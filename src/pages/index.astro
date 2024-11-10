@@ -32,6 +32,9 @@ const formatDate = (dateString:string) => {
 					<li>{item}</li>
 				))}
 			</ul>
+			<div>
+				<input id='search' type='text' value='' placeholder='search term' />
+			</div>
 		</div>
 	</div>
 
@@ -39,7 +42,7 @@ const formatDate = (dateString:string) => {
 		<div class="wrapper">
 		{sortedFeedItems
 			.map(item => (
-				<div class="item" data-feed={item.source}>
+				<div class="item" data-feed={item.source} data-id={item.id}>
 					<div class="date">{formatDate(item.published)}</div>
 					<div class="topic">{item.category || ''}</div>
 					<div class="link" data-id={item.id}>{item.title}</div>
@@ -76,7 +79,13 @@ const formatDate = (dateString:string) => {
 		e.addEventListener('click', () => setCurrentFeed(feedName))
 	});
 
+	// side menu search - listener
+	const search = document.getElementById('search') as HTMLInputElement;
+	search?.addEventListener('keyup', () => displaySearchedArticles(search.value));
+
 	function setCurrentFeed(feed:string): void {
+		const search = document.getElementById('search')! as HTMLInputElement;
+		search.value = '';
 		window.scrollTo({top: 0, behavior: 'smooth'});
 		const allRows = document.querySelectorAll('div.item');
 		allRows.forEach((el) => el.classList.remove('show'));
@@ -84,6 +93,30 @@ const formatDate = (dateString:string) => {
 		rows.forEach((el) => el.classList.add('show'));
 		const el = document.getElementById("current")!;
 		el.innerHTML = feed;
+	}
+
+	const displaySearchedArticles = (term:string) => {
+		// no search term
+		if (!term.length) {
+			setCurrentFeed('ABC');
+			return;
+		}
+		window.scrollTo({top: 0, behavior: 'smooth'});
+		// remove currently displayed articles
+		const displayedRows = document.querySelectorAll('div.item');
+		displayedRows.forEach((el) => el.classList.remove('show'));
+		// find articles that include {term} in their title
+		const allRows = document.querySelectorAll('div.item');
+		allRows.forEach((row) => {
+			const title = row.querySelector('div.link')?.innerHTML.toLowerCase();
+			if (title?.includes(term)) {
+				row.classList.add('show');
+			}
+		});
+		// update slide out to show term vs source
+		const el = document.getElementById("current")!;
+		el.innerHTML = term;
+
 	}
 
 	const displayArticle = (id:string) => {
@@ -272,6 +305,20 @@ const formatDate = (dateString:string) => {
 	}
 	li:hover {
 		color: #ddd;
+	}
+
+	input {
+		font-family: 'JetBrains Mono Variable';
+		font-size: 0.8rem;
+		margin-left: 10px;
+		width: 75%;
+		border-radius: 5px;
+		border: 0;
+		line-height: 2;
+		padding-left: 9px;
+	}
+	input:focus-visible {
+		border: none;
 	}
 
 /* Dialog styles */

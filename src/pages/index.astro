@@ -42,7 +42,7 @@ const formatDate = (dateString:string) => {
 		<div class="wrapper">
 		{sortedFeedItems
 			.map(item => (
-				<div class="item" data-feed={item.source} data-id={item.id}>
+				<div class="item" data-feed={item.source}>
 					<div class="date">{formatDate(item.published)}</div>
 					<div class="topic">{item.category || ''}</div>
 					<div class="link" data-id={item.id}>{item.title}</div>

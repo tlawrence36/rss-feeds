@@ -50,10 +50,10 @@ const formatDate = (dateString:string) => {
 
 	<dialog>
 		<div id='article_container'>
-			<div id='title'></div>
-			<div id='storyWrapper'>
+			<article id='article'>
+				<div id='title'></div>
 				<div id='story'></div>
-			</div>
+			</article>
 			<button>Close</button>
 		</div>
 	</dialog>
@@ -94,19 +94,16 @@ const formatDate = (dateString:string) => {
   			dialog.close();
 		});
 		const content = articles.find((article) => article.id === +id);
-		// populate title
 		const title = document.getElementById('title')!;
 		title.innerHTML = `<h3 style='height: 35px; line-height:1.1;'>${content?.title}</h3>`;
-		// populate story
 		const story = document.getElementById('story')!;
+		const article = document.getElementById('article')!;
 		story.innerHTML = '';
-		story.scrollTo({top:0});
 		content?.story.forEach((line) => {
-			story.innerHTML += `<p style='margin-bottom: 26px'>${line}</p>`;
+			story.innerHTML += `<p>${line}</p>`;
 		});
 		dialog.showModal();
-		document.getElementById('article_container')?.scrollIntoView();
-
+		article.scrollTo(0,0);
 	}
 
 	window.onload = function () {
@@ -157,6 +154,12 @@ const formatDate = (dateString:string) => {
 		font-family: 'JetBrains Mono Variable';
 		outline: none;
 		cursor: pointer;
+		position: absolute;
+		bottom: 30px;
+		border-top: 1px solid #999;
+		width: 88%;
+		text-align:left;
+		padding-top: 10px;
 	}
 	button:hover {
 		text-decoration: underline;
@@ -274,67 +277,39 @@ const formatDate = (dateString:string) => {
 /* Dialog styles */
 	dialog {
 		width: 75%;
-		height: 80%;
 		border: none;
 		background: transparent;
 		overscroll-behavior: contain;
 	}
-	dialog::-webkit-scrollbar {
-  		display: none;
-	}
+	// dialog::-webkit-scrollbar {
+  	// 	display: none;
+	// }
 	dialog::backdrop {
 		background: rgba(0, 0, 0, 0.5);
 	}
 
-	#storyWrapper {
-		overflow-y: auto;
-		border-bottom: 2px solid #999;
-	}
-
 /* paper background */
-/* borrowed from https://codepen.io/kevinpowell/pen/dyavyPg */
 	:root {
-	--main-line-color: hsl(234, 62%, 86%);
-	--side-line-color: hsl(350, 100%, 91%);
 	--paper-color: hsl(0, 15%, 95%);
 	--ink-color: hsl(0, 0%, 12%);
-	--line-thickness: 2px;
 	--top-space: 3lh;
 	}
 
 	#article_container {
 		background: var(--paper-color);
-		padding: calc(var(--top-space) - 2.75lh) 3rem 1rem 5.5rem;
-		line-height: 1.624;
+		padding: calc(var(--top-space) - 2.75lh) 3rem 1rem 2rem;
 		color: var(--ink-color);
-		// background-image:
-		// /* the red line */
-		// linear-gradient(
-		// 90deg,
-		// transparent,
-		// transparent 4rem,
-		// var(--side-line-color) 4rem,
-		// var(--side-line-color) 4.25rem,
-		// transparent 4.25rem
-		// ),
-		// /*  The top space  */
-		// linear-gradient(
-		// 	var(--paper-color),
-		// 	var(--paper-color) var(--top-space),
-		// 	transparent var(--top-space)
-		// ),
-		// /* the blue lines */
-		// repeating-linear-gradient(
-		// 	transparent,
-		// 	transparent calc(1lh - var(--line-thickness)),
-		// 	var(--main-line-color) calc(1lh - var(--line-thickness)),
-		// 	var(--main-line-color) 1lh,
-		// 	transparent 1lh
-		// );
 		border-radius: 15px;
-		min-height: 80%;
-		// box-shadow: inset 0px 0px 15px 3px #999;
+		height: 84vh;
 	}
+
+	article {
+		height: 80vh;
+    	overflow-y: scroll;
+		overscroll-behavior: contain;
+	}
+
+	article::-webkit-scrollbar { display: none; }
 
 	@media only screen and (max-width: 640px) {
 		dialog {

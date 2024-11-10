@@ -34,6 +34,7 @@ const formatDate = (dateString:string) => {
 			</ul>
 			<div>
 				<input id='search' type='text' value='' placeholder='search term' />
+				<!-- <button id='clear'>X</button> -->
 			</div>
 		</div>
 	</div>
@@ -94,6 +95,11 @@ const formatDate = (dateString:string) => {
 		const el = document.getElementById("current")!;
 		el.innerHTML = feed;
 	}
+
+	// const clearSearch = () => {
+	// 	const el = document.getElementById('search') as HTMLInputElement;
+	// 	el.value = '';
+	// }
 
 	const displaySearchedArticles = (term:string) => {
 		// no search term
@@ -310,7 +316,7 @@ const formatDate = (dateString:string) => {
 	input {
 		font-family: 'JetBrains Mono Variable';
 		font-size: 0.8rem;
-		margin-left: 10px;
+		margin: 20px 0 0 10px;
 		width: 75%;
 		border-radius: 5px;
 		border: 0;
@@ -319,6 +325,18 @@ const formatDate = (dateString:string) => {
 	}
 	input:focus-visible {
 		border: none;
+	}
+	#clear {
+		font-family: 'JetBrains Mono Variable';
+		width: auto;
+    	border: 3px solid orange;
+    	border-radius: 8px;
+		margin: 3px 0 3px 3px;
+		height: 32px;
+		padding: 0 5px;
+	}
+	#clear:hover {
+		text-decoration: none;
 	}
 
 /* Dialog styles */

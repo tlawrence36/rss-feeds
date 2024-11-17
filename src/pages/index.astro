@@ -173,6 +173,9 @@ const formatDate = (dateString:string) => {
 	body::-webkit-scrollbar {
   		/* display: none; */
 	}
+	body:has(dialog[open]) {
+		overflow: hidden;
+	}
 
 	.link {
 		color: #666;

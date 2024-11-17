@@ -252,14 +252,18 @@ const formatDate = (dateString:string) => {
 		main {
 			margin: 0;
 		}
-		.show {
-			grid-template-columns: 100px 1fr;
-		}
 		.link {
 			grid-column-start: 2;
 		}
 		.topic {
 			display: none;
+		}
+		#slideout {
+			display: none;
+		}
+		.item {
+			display: grid;
+			grid-template-columns: 100px 1fr;
 		}
 	}
 

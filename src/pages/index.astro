@@ -107,6 +107,8 @@ const formatDate = (dateString:string) => {
 			setCurrentFeed('ABC');
 			return;
 		}
+		const isExclude = term.charAt(0) === '-';
+		const actualTerm = isExclude ? term.substring(1) : term;
 		window.scrollTo({top: 0, behavior: 'smooth'});
 		// remove currently displayed articles
 		const displayedRows = document.querySelectorAll('div.item');
@@ -115,13 +117,15 @@ const formatDate = (dateString:string) => {
 		const allRows = document.querySelectorAll('div.item');
 		allRows.forEach((row) => {
 			const title = row.querySelector('div.link')?.innerHTML.toLowerCase();
-			if (title?.includes(term)) {
+			if (isExclude && !title?.includes(actualTerm)) {
+				row.classList.add('show');
+			} else if (!isExclude && title?.includes(actualTerm)) {
 				row.classList.add('show');
 			}
 		});
 		// update slide out to show term vs source
 		const el = document.getElementById("current")!;
-		el.innerHTML = term;
+		el.innerHTML = actualTerm;
 
 	}
 

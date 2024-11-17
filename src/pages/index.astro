@@ -138,7 +138,7 @@ const formatDate = (dateString:string) => {
 		});
 		const content = articles.find((article) => article.id === +id);
 		const title = document.getElementById('title')!;
-		title.innerHTML = `<h3 style='height: 35px; line-height:1.1;'>${content?.title}</h3>`;
+		title.innerHTML = `<h3 style='line-height:1.1;'>${content?.title}</h3>`;
 		const story = document.getElementById('story')!;
 		const article = document.getElementById('article')!;
 		story.innerHTML = '';
@@ -197,12 +197,13 @@ const formatDate = (dateString:string) => {
 		font-family: 'JetBrains Mono Variable';
 		outline: none;
 		cursor: pointer;
-		position: absolute;
-		bottom: 30px;
+		// position: absolute;
+		// bottom: 30px;
 		border-top: 1px solid #999;
-		width: 88%;
+		width: 100%;
 		text-align:left;
 		padding-top: 10px;
+		margin-top: 10px;
 	}
 	button:hover {
 		text-decoration: underline;

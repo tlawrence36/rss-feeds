@@ -147,7 +147,7 @@ const formatDate = (dateString:string) => {
 			story.innerHTML += `<p>${line}</p>`;
 		});
 		// const origin_link = document.getElementById('origin_link')!;
-		story.innerHTML += `<a href=${content?.link} target='_blank'}>${content?.link}</a>`;
+		story.innerHTML += `<a href=${content?.link} target='_blank'}>View original article</a>`;
 		dialog.showModal();
 		article.scrollTo(0,0);
 	}

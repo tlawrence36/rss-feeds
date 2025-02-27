@@ -14,6 +14,7 @@ const sortedFeedItems = uniqueItems.sort((a, b) => {
 });
 
 const uniqueFeedNames = [...new Set(articles.map(obj => obj.source))];
+const uniqueCategoryNames = [...new Set(articles.map(obj => obj.category))];
 
 const formatDate = (dateString:string) => {
 	const date = new Date(dateString);
@@ -27,8 +28,13 @@ const formatDate = (dateString:string) => {
 		<Image src={rssIcon} alt="RSS icon" class="icon"/>
 		<div id='current'></div>
 		<div id="slideout_inner">
-			<ul>
+			<ul class="sources">
 				{uniqueFeedNames.map(item => (
+					<li>{item}</li>
+				))}
+			</ul>
+			<ul class="categories">
+				{uniqueCategoryNames.map(item => (
 					<li>{item}</li>
 				))}
 			</ul>
@@ -43,7 +49,7 @@ const formatDate = (dateString:string) => {
 		<div class="wrapper">
 		{sortedFeedItems
 			.map(item => (
-				<div class="item" data-feed={item.source}>
+				<div class="item" data-category={item.category} data-feed={item.source}>
 					<div class="date">{formatDate(item.published)}</div>
 					<div class="topic">{item.category || ''}</div>
 					<div class="link" data-id={item.id}>{item.title}</div>
@@ -75,10 +81,17 @@ const formatDate = (dateString:string) => {
 	});
 
 	// side menu - listener
-	const elArray = document.querySelectorAll('li');
+	const elArray = document.querySelectorAll('ul.sources li');
 	elArray.forEach((e) => {
 		const feedName = e.innerHTML;
 		e.addEventListener('click', () => setCurrentFeed(feedName))
+	});
+
+	// side menu category - listener
+	const catListArray = document.querySelectorAll('ul.categories li');
+	catListArray.forEach((e) => {
+		const category = e.innerHTML!;
+		e.addEventListener('click', () => setCurrentCategory(category))
 	});
 
 	// side menu search - listener
@@ -95,6 +108,18 @@ const formatDate = (dateString:string) => {
 		rows.forEach((el) => el.classList.add('show'));
 		const el = document.getElementById("current")!;
 		el.innerHTML = feed;
+	}
+
+	function setCurrentCategory(category:string): void {
+		const search = document.getElementById('search')! as HTMLInputElement;
+		search.value = '';
+		window.scrollTo({top: 0, behavior: 'smooth'});
+		const allRows = document.querySelectorAll('div.item');
+		allRows.forEach((el) => el.classList.remove('show'));
+		const rows = document.querySelectorAll(`div[data-category='${category}']`);
+		rows.forEach((el) => el.classList.add('show'));
+		const el = document.getElementById("current")!;
+		el.innerHTML = category;
 	}
 
 	// const clearSearch = () => {
@@ -146,7 +171,6 @@ const formatDate = (dateString:string) => {
 		content?.story.forEach((line) => {
 			story.innerHTML += `<p>${line}</p>`;
 		});
-		// const origin_link = document.getElementById('origin_link')!;
 		story.innerHTML += `<a href=${content?.link} target='_blank'}>View original article</a>`;
 		dialog.showModal();
 		article.scrollTo(0,0);
@@ -307,7 +331,7 @@ const formatDate = (dateString:string) => {
 		top: 33px;
 		left: -160px;
 		width: 160px;
-		min-height: 200px;
+		min-height: 550px;
 		-webkit-transition-duration: 0.3s;
 		-moz-transition-duration: 0.3s;
 		-o-transition-duration: 0.3s;
@@ -331,11 +355,17 @@ const formatDate = (dateString:string) => {
 		list-style: none;
 		color: #fff;
 	}
+	ul.categories {
+		padding: 8px 3px 0;
+		margin-bottom: 0;
+		text-align: right;
+		margin-right: 10px;
+	}
 	li:hover {
 		color: #ddd;
 	}
 
-	input {
+	input[type='text'] {
 		font-family: 'JetBrains Mono Variable';
 		font-size: 0.8rem;
 		margin: 20px 0 0 10px;

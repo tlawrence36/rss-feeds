@@ -77,6 +77,7 @@ def scrape_articles():
                             "source": article['source'],
                             "category": article['category'],
                             "title": article['title'],
+                            "link": article['link'],
                             "published": article['published'],
                             "summary": article['summary'],
                         }

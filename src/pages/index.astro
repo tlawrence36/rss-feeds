@@ -57,6 +57,7 @@ const formatDate = (dateString:string) => {
 			<article id='article'>
 				<div id='title'></div>
 				<div id='story'></div>
+				<div id='origin_link'></div>
 			</article>
 			<button>Close</button>
 		</div>
@@ -145,6 +146,8 @@ const formatDate = (dateString:string) => {
 		content?.story.forEach((line) => {
 			story.innerHTML += `<p>${line}</p>`;
 		});
+		// const origin_link = document.getElementById('origin_link')!;
+		story.innerHTML += `<a href=${content?.link} target='_blank'}>${content?.link}</a>`;
 		dialog.showModal();
 		article.scrollTo(0,0);
 	}

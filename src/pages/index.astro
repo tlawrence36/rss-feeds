@@ -2,6 +2,9 @@
 import Layout from '../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import rssIcon from '../assets/rss-icon.svg';
+import playIcon from '../assets/play.svg';
+import pauseIcon from '../assets/pause.svg';
+import closeIcon from '../assets/close.svg';
 import articles from '../../feed.json';
 
 const uniqueItems = articles.filter((item, index, array) => {
@@ -62,10 +65,14 @@ const formatDate = (dateString:string) => {
 		<div id='article_container'>
 			<article id='article'>
 				<div id='title'></div>
+				<div id='controls'>
+					<button id='speak'><Image src={playIcon} alt="Listen to article" class="icon"/></button>
+					<button id='pause' disabled><Image src={pauseIcon} alt="Stop listening to article" class="icon"/></button>
+					<button id='close'><Image src={closeIcon} alt="Close article" class="icon"/></button>
+				</div>
 				<div id='story'></div>
 				<div id='origin_link'></div>
 			</article>
-			<button>Close</button>
 		</div>
 	</dialog>
 </Layout>
@@ -73,30 +80,38 @@ const formatDate = (dateString:string) => {
 <script>
 	import articles from '../../feed.json';
 
-	// article links - listener
+	// Listeners...
+
+	// article links
 	const articleLinks = document.querySelectorAll('.link');
 	articleLinks.forEach((e) => {
 		const id = e.getAttribute('data-id') || '';
 		e.addEventListener('click', () => displayArticle(id));
 	});
 
-	// side menu - listener
+	// side menu
 	const elArray = document.querySelectorAll('ul.sources li');
 	elArray.forEach((e) => {
 		const feedName = e.innerHTML;
 		e.addEventListener('click', () => setCurrentFeed(feedName))
 	});
 
-	// side menu category - listener
+	// side menu categories
 	const catListArray = document.querySelectorAll('ul.categories li');
 	catListArray.forEach((e) => {
 		const category = e.innerHTML!;
 		e.addEventListener('click', () => setCurrentCategory(category))
 	});
 
-	// side menu search - listener
+	// side menu search
 	const search = document.getElementById('search') as HTMLInputElement;
 	search?.addEventListener('keyup', () => displaySearchedArticles(search.value));
+
+	// end of spoken articles
+	const synthVoices = window.speechSynthesis;
+	synthVoices.addEventListener('end', () => {
+		document.querySelector("#speak")?.removeAttribute("disabled");
+	});
 
 	function setCurrentFeed(feed:string): void {
 		const search = document.getElementById('search')! as HTMLInputElement;
@@ -121,11 +136,6 @@ const formatDate = (dateString:string) => {
 		const el = document.getElementById("current")!;
 		el.innerHTML = category;
 	}
-
-	// const clearSearch = () => {
-	// 	const el = document.getElementById('search') as HTMLInputElement;
-	// 	el.value = '';
-	// }
 
 	const displaySearchedArticles = (term:string) => {
 		// no search term
@@ -152,16 +162,60 @@ const formatDate = (dateString:string) => {
 		// update slide out to show term vs source
 		const el = document.getElementById("current")!;
 		el.innerHTML = actualTerm;
+	}
 
+	const startSpeaking = () => {
+		const voices = window.speechSynthesis.getVoices().filter((v) => v.name === 'Aaron' || v.name === 'Cecil');
+		const voice = Math.round(Math.random());
+		const title = document?.getElementById('title')?.innerText;
+		const text = document?.getElementById('story')?.innerText;
+    	const verbalTitle = new SpeechSynthesisUtterance(title);
+    	const verbalStory = new SpeechSynthesisUtterance(text);
+		verbalStory.voice = voices[voice];
+		verbalTitle.voice = voices[voice];
+		// verbalStory.rate = 1;  // Speed of speech (1 is normal, 0.5 is slower, 2 is faster)
+    	// verbalStory.pitch = 1; // Pitch of the voice (0 is low, 2 is high)
+    	// verbalStory.volume = 1; // Volume level (0 is mute, 1 is full volume)
+		synthVoices.speak(verbalTitle);
+		synthVoices.speak(verbalStory);
+	}
+
+	const handleSpeaking = () => {
+		document.querySelector("#speak")?.setAttribute("disabled", 'true');
+		document.querySelector("#pause")?.removeAttribute("disabled");
+		startSpeaking();
+	}
+
+	const handlePause = () => {
+		if(synthVoices.paused) {
+			synthVoices.resume();
+		} else {
+			synthVoices.pause();
+		}
 	}
 
 	const displayArticle = (id:string) => {
 		document.querySelector(`[data-id="${id}"]`)?.classList.add('visited');
 		const dialog = document.querySelector("dialog")!;
-		const closeButton = document.querySelector("dialog button")!;
+
+		// close button listener
+		const closeButton = document.querySelector("dialog button#close")!;
 		closeButton.addEventListener("click", () => {
-  			dialog.close();
+			synthVoices.cancel();
+			document.querySelector("#speak")?.removeAttribute("disabled");
+			listenButton.removeEventListener("click", handleSpeaking);
+			pauseButton.removeEventListener("click", handlePause);
+			dialog.close();
 		});
+
+		// listen button listener
+		const listenButton = document.querySelector("dialog button#speak")!;
+		listenButton.addEventListener("click", handleSpeaking);
+
+		// pause button listener
+		const pauseButton = document.querySelector("dialog button#pause")!;
+		pauseButton.addEventListener("click", handlePause);
+
 		const content = articles.find((article) => article.id === +id);
 		const title = document.getElementById('title')!;
 		title.innerHTML = `<h3 style='line-height:1.1;'>${content?.title}</h3>`;
@@ -220,20 +274,27 @@ const formatDate = (dateString:string) => {
 	.icon {
 		width: 32px;
 		height: 32px;
-		padding: 5px;
 	}
+
+	#controls {
+		position: absolute;
+    	right: 65px;
+    	bottom: 15px;
+		height: 40px;
+	}
+	#controls button {
+		background: transparent;
+	}
+	#controls button:disabled {
+		opacity: .5;
+		cursor: default;
+	}
+
 	button {
 		border: none;
 		font-family: 'JetBrains Mono Variable';
 		outline: none;
 		cursor: pointer;
-		// position: absolute;
-		// bottom: 30px;
-		border-top: 1px solid #999;
-		width: 100%;
-		text-align:left;
-		padding-top: 10px;
-		margin-top: 10px;
 	}
 	button:hover {
 		text-decoration: underline;
@@ -278,9 +339,6 @@ const formatDate = (dateString:string) => {
 		width: inherit;
 		grid-column-start: 3;
 	}
-	#title {
-		margin-bottom: 25px;
-	}
 
 	/* "mobile second" for this site */
 	@media only screen and (max-width: 992px) {
@@ -299,6 +357,15 @@ const formatDate = (dateString:string) => {
 		.item {
 			display: grid;
 			grid-template-columns: 100px 1fr;
+		}
+		#speak,
+		#pause {
+			display: none;
+		}
+		#controls {
+			position: absolute;
+    		right: 16px;
+    		top: 21px;
 		}
 	}
 
@@ -426,6 +493,11 @@ const formatDate = (dateString:string) => {
 		height: 80vh;
     	overflow-y: scroll;
 		overscroll-behavior: contain;
+		border-bottom: 1px solid lightgray;
+	}
+
+	article:focus-visible {
+		outline: none;
 	}
 
 	article::-webkit-scrollbar { display: none; }

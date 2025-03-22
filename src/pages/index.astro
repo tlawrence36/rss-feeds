@@ -28,7 +28,7 @@ const formatDate = (dateString:string) => {
 
 <Layout title="RSS">
 	<div id="slideout">
-		<Image src={rssIcon} alt="RSS icon" class="icon"/>
+		<Image src={rssIcon} alt="RSS icon" class="icon rss"/>
 		<div id='current'></div>
 		<div id="slideout_inner">
 			<ul class="sources">
@@ -274,6 +274,9 @@ const formatDate = (dateString:string) => {
 	.icon {
 		width: 32px;
 		height: 32px;
+	}
+	.icon.rss {
+		margin: 3px 0 0 5px;
 	}
 
 	#controls {

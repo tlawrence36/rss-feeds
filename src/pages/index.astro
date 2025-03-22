@@ -32,7 +32,7 @@ const formatDate = (dateString:string) => {
 		<div id='current'></div>
 		<div id="slideout_inner">
 			<ul class="sources">
-				{uniqueFeedNames.sort().map(item => (
+				{uniqueFeedNames.map(item => (
 					<li>{item}</li>
 				))}
 			</ul>

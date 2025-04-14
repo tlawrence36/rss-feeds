@@ -54,8 +54,8 @@ def get_container(soup, source):
         return soup.find('section', class_='entry__content-list')
     elif source == 'NBC':
         return soup.find('div', class_='article-body__content')
-    elif source == 'Politico':
-        return soup.find('div', class_='story-text')
+    # elif source == 'Politico':
+    #     return soup.find('div', class_='story-text')
 
 def scrape_articles():
     print('scrape articles, save to JSON for astro')

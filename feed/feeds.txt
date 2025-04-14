@@ -33,8 +33,3 @@ FOX,World,https://moxie.foxnews.com/google-publisher/world.xml
 NBC,News,https://feeds.nbcnews.com/nbcnews/public/news
 NBC,Pop Culture,https://feeds.nbcnews.com/today/public/popculture
 NBC,World,https://feeds.nbcnews.com/nbcnews/public/world
-Politico,Health,https://rss.politico.com/healthcare.xml
-Politico,Defense,https://rss.politico.com/defense.xml
-Politico,Economy,https://rss.politico.com/economy.xml
-Politico,Energy,https://rss.politico.com/energy.xml
-Politico,Politics,https://rss.politico.com/politics-news.xml

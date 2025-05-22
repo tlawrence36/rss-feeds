@@ -44,14 +44,14 @@ def parse_rss_feeds():
 def get_container(soup, source):
     if source == 'ABC':
         return soup.find('div', class_='FITT_Article_main__body')
-    elif source == 'BBC':
-        return soup.find('article')
+    # elif source == 'BBC':
+    #     return soup.find('article')
     elif source == 'CBS':
         return soup.find('section', class_='content__body')
     elif source == 'FOX':
         return soup.find('div', class_='article-body')
-    elif source == 'HuffPost':
-        return soup.find('section', class_='entry__content-list')
+    # elif source == 'HuffPost':
+    #     return soup.find('section', class_='entry__content-list')
     elif source == 'NBC':
         return soup.find('div', class_='article-body__content')
     # elif source == 'Politico':

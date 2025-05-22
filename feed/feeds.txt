@@ -7,14 +7,6 @@ ABC,Tech,https://abcnews.go.com/abcnews/technologyheadlines
 ABC,Top Stories,https://abcnews.go.com/abcnews/topstories
 ABC,Travel,https://abcnews.go.com/abcnews/travelheadlines
 ABC,US,https://abcnews.go.com/abcnews/usheadlines
-BBC,Business,http://feeds.bbci.co.uk/news/business/rss.xml
-BBC,Education,http://feeds.bbci.co.uk/news/education/rss.xml
-BBC,Entertainment,http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml
-BBC,Health,http://feeds.bbci.co.uk/news/health/rss.xml
-BBC,Politics,http://feeds.bbci.co.uk/news/politics/rss.xml
-BBC,Science,http://feeds.bbci.co.uk/news/science_and_environment/rss.xml
-BBC,Tech,http://feeds.bbci.co.uk/news/technology/rss.xml
-BBC,World,http://feeds.bbci.co.uk/news/world/rss.xml
 CBS,Entertainment,https://www.cbsnews.com/latest/rss/entertainment
 CBS,Health,https://www.cbsnews.com/latest/rss/health
 CBS,Money,https://www.cbsnews.com/latest/rss/moneywatch

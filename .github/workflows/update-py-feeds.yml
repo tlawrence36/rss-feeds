@@ -36,7 +36,7 @@ jobs:
         run: python 'feed/get_feeds.py'
       - name: Commit and push changes
         run: |
-          git config user.email "tjlawren@gmail.com"
+          git config user.email "tlawren2025@gmail.com"
           git config user.name "tlawrence36"
           # git config --global user.name "GitHub Actions"
           # git config --global user.email "no-reply@github.com"

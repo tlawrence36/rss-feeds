@@ -43,7 +43,21 @@ def parse_rss_feeds():
 
 def get_container(soup, source):
     if source == 'ABC':
-        return soup.find('div', class_='FITT_Article_main__body')
+        # all divs in content
+        content = soup.find('div', class_='FITT_Article_main__body')
+        # Remove prism-tags div (data-testid='prism-tags')
+        prism_tags_div = content.find('div', attrs={'data-testid': 'prism-tags'})
+        if prism_tags_div:
+            prism_tags_div.decompose()
+        # Remove div with class='taboola'
+        taboola_tag_div = content.find('div', attrs={'class': 'taboola'})
+        if prism_tags_div:
+            taboola_tag_div.decompose()
+        # Remove div with class='MobileContentPromo' (mobile content)
+        mobile_content = content.find('div', attrs={'class': 'MobileContentPromo'})
+        if mobile_content:
+            mobile_content.decompose()
+        return content
     # elif source == 'BBC':
     #     return soup.find('article')
     elif source == 'CBS':

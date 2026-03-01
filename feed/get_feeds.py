@@ -47,10 +47,10 @@ def get_container(soup, source):
         prism_tags_div = soup.find('div', attrs={'data-testid': 'prism-tags'})
         if prism_tags_div:
             prism_tags_div.decompose()
-        # Remove mobile content (data-testid='prism-collection')
-        prism_collection_section = soup.find('section', attrs={'data-testid': 'prism-collection'})
-        if prism_collection_section:
-            prism_collection_section.decompose()
+        # Remove elements with data-testid='prism-collection'
+        prism_collections = soup.find_all(attrs={'data-testid': 'prism-collection'})
+        for element in prism_collections:
+            element.decompose()
         # Remove taboola disclaimer (data-testid='prism-taboola')
         prism_taboola_div = soup.find('div', attrs={'data-testid': 'prism-taboola'})
         if prism_taboola_div:

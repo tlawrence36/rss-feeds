@@ -49,14 +49,14 @@ def get_container(soup, source):
         prism_tags_div = content.find('div', attrs={'data-testid': 'prism-tags'})
         if prism_tags_div:
             prism_tags_div.decompose()
+        # Remove mobile content (data-testid='prism-collection')
+        prism_collection_div = content.find('div', attrs={'data-testid': 'prism-collection'})
+        if prism_collection_div:
+            prism_collection_div.decompose()
         # Remove div with class='taboola'
         taboola_tag_div = content.find('div', attrs={'class': 'taboola'})
         if prism_tags_div:
             taboola_tag_div.decompose()
-        # Remove div with class='MobileContentPromo' (mobile content)
-        mobile_content = content.find('div', attrs={'class': 'MobileContentPromo'})
-        if mobile_content:
-            mobile_content.decompose()
         return content
     # elif source == 'BBC':
     #     return soup.find('article')

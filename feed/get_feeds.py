@@ -50,9 +50,9 @@ def get_container(soup, source):
         if prism_tags_div:
             prism_tags_div.decompose()
         # Remove mobile content (data-testid='prism-collection')
-        prism_collection_div = content.find('div', attrs={'data-testid': 'prism-collection'})
-        if prism_collection_div:
-            prism_collection_div.decompose()
+        prism_collection_section = content.find('section', attrs={'data-testid': 'prism-collection'})
+        if prism_collection_section:
+            prism_collection_section.decompose()
         # Remove div with class='taboola'
         taboola_tag_div = content.find('div', attrs={'class': 'taboola'})
         if prism_tags_div:

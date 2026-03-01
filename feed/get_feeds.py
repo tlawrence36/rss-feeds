@@ -42,6 +42,10 @@ def parse_rss_feeds():
             parsed_articles.append(item)
 
 def get_container(soup, source):
+    # Remove any <aside> tags
+    aside_elements = soup.find_all('aside')
+    for element in aside_elements:
+        element.decompose()
     if source == 'ABC':
         # Remove prism-tags div (data-testid='prism-tags')
         prism_tags_div = soup.find('div', attrs={'data-testid': 'prism-tags'})
@@ -91,7 +95,7 @@ def scrape_articles():
                         item = {
                             "id": article_id,
                             "source": article['source'],
-                            "category": article['category'],
+                            "category": article['category'], #include source?, ie. 'US (ABC)'
                             "title": article['title'],
                             "link": article['link'],
                             "published": article['published'],

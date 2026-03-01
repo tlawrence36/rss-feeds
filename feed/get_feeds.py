@@ -43,20 +43,20 @@ def parse_rss_feeds():
 
 def get_container(soup, source):
     if source == 'ABC':
-        # all divs in content
-        content = soup.find('div', class_='FITT_Article_main__body')
         # Remove prism-tags div (data-testid='prism-tags')
-        prism_tags_div = content.find('div', attrs={'data-testid': 'prism-tags'})
+        prism_tags_div = soup.find('div', attrs={'data-testid': 'prism-tags'})
         if prism_tags_div:
             prism_tags_div.decompose()
         # Remove mobile content (data-testid='prism-collection')
-        prism_collection_section = content.find('section', attrs={'data-testid': 'prism-collection'})
+        prism_collection_section = soup.find('section', attrs={'data-testid': 'prism-collection'})
         if prism_collection_section:
             prism_collection_section.decompose()
-        # Remove div with class='taboola'
-        taboola_tag_div = content.find('div', attrs={'class': 'taboola'})
-        if prism_tags_div:
-            taboola_tag_div.decompose()
+        # Remove taboola disclaimer (data-testid='prism-taboola')
+        prism_taboola_div = soup.find('div', attrs={'data-testid': 'prism-taboola'})
+        if prism_taboola_div:
+            prism_taboola_div.decompose()
+        # once filtered, fetch all divs in the soup and return
+        content = soup.find('div', class_='FITT_Article_main__body')
         return content
     # elif source == 'BBC':
     #     return soup.find('article')
